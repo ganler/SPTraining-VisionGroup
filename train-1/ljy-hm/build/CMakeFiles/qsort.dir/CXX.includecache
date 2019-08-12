@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/liu/SPTraining-VisionGroup/train-1/ljy-hm/main.cpp
+iostream
+-
+qsort.hpp
+/home/liu/SPTraining-VisionGroup/train-1/ljy-hm/qsort.hpp
+
+/home/liu/SPTraining-VisionGroup/train-1/ljy-hm/qsort.hpp
+
