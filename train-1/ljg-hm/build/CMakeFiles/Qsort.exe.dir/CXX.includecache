@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/serendipity/C++Exercise/Qsort/main.cpp
+qsort.hpp
+/home/serendipity/C++Exercise/Qsort/qsort.hpp
+
+/home/serendipity/C++Exercise/Qsort/qsort.hpp
+algorithm
+-
+iostream
+-
+

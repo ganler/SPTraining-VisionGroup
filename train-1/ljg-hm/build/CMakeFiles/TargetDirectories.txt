@@ -1,0 +1,3 @@
+/home/serendipity/C++Exercise/Qsort/build/CMakeFiles/rebuild_cache.dir
+/home/serendipity/C++Exercise/Qsort/build/CMakeFiles/Qsort.exe.dir
+/home/serendipity/C++Exercise/Qsort/build/CMakeFiles/edit_cache.dir
