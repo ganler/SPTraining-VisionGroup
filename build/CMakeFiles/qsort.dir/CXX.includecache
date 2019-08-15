@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/papa/Desktop/rm_vision/hw/SPTraining-VisionGroup-master/train-1/qsort.cpp
+iostream
+-
+string
+-
+algorithm
+-
+time.h
+-
+

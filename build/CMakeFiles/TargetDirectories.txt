@@ -1,0 +1,3 @@
+/home/papa/Desktop/rm_vision/hw/SPTraining-VisionGroup-master/train-1/build/CMakeFiles/rebuild_cache.dir
+/home/papa/Desktop/rm_vision/hw/SPTraining-VisionGroup-master/train-1/build/CMakeFiles/qsort.dir
+/home/papa/Desktop/rm_vision/hw/SPTraining-VisionGroup-master/train-1/build/CMakeFiles/edit_cache.dir
