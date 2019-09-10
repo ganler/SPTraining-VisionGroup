@@ -85,7 +85,7 @@ int main()
         else asyncs[i]=std::async(func_bads,std::ref(classifier),i-(hardware_asyncs-1)/2-1);
     }
 
-    bads_right+=func_bads(classifier,3);//主线程中运行
+    bads_right+=func_bads(classifier,(hardware_asyncs-1)/2);//主线程中运行
     for(int i=0;i<hardware_asyncs-1;i++)//获得结果
     {
         if(i<=(hardware_asyncs-1)/2) goods_right+=asyncs[i].get();
