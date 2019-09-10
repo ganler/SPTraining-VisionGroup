@@ -26,7 +26,7 @@ public:
 private:
     inline void clear()
     {
-        for(int i=0;i<n;i++)
+        for(int i=0;i<rows;i++)
             if(data[i]!=nullptr) delete []data[i];
         if(data!=nullptr)
             delete []data;
