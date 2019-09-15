@@ -1,3 +1,0 @@
-/home/liu/SPTraining-VisionGroup/train-2/ljy-hm/build/CMakeFiles/rebuild_cache.dir
-/home/liu/SPTraining-VisionGroup/train-2/ljy-hm/build/CMakeFiles/SP19CLASSIFIER_TEST.dir
-/home/liu/SPTraining-VisionGroup/train-2/ljy-hm/build/CMakeFiles/edit_cache.dir
