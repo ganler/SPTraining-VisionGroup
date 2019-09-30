@@ -1,0 +1,1848 @@
+jachinlin@jachinlin-G3-3579:~$ sudo apt-get install \
+>     g++ \
+>     cmake \
+>     libboost-all-dev \
+>     libevent-dev \
+>     libdouble-conversion-dev \
+>     libgoogle-glog-dev \
+>     libgflags-dev \
+>     libiberty-dev \
+>     liblz4-dev \
+>     liblzma-dev \
+>     libsnappy-dev \
+>     make \
+>     zlib1g-dev \
+>     binutils-dev \
+>     libjemalloc-dev \
+>     libssl-dev \
+>     pkg-config
+[sudo] jachinlin 的密码： 
+正在读取软件包列表... 完成
+正在分析软件包的依赖关系树       
+正在读取状态信息... 完成       
+make 已经是最新版 (4.1-9.1ubuntu1)。
+make 已设置为手动安装。
+pkg-config 已经是最新版 (0.29.1-0ubuntu2)。
+zlib1g-dev 已经是最新版 (1:1.2.11.dfsg-0ubuntu2)。
+zlib1g-dev 已设置为手动安装。
+cmake 已经是最新版 (3.10.2-1ubuntu2.18.04.1)。
+g++ 已经是最新版 (4:7.4.0-1ubuntu2.3)。
+g++ 已设置为手动安装。
+下列软件包是自动安装的并且现在不需要了：
+  fonts-liberation2 fonts-opensymbol gir1.2-geocodeglib-1.0
+  gir1.2-gst-plugins-base-1.0 gir1.2-gstreamer-1.0 gir1.2-gudev-1.0
+  gir1.2-udisks-2.0 grilo-plugins-0.3-base gstreamer1.0-gtk3 libcdr-0.1-1
+  libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5 libcolamd2
+  libdazzle-1.0-0 libe-book-0.1-1 libedataserverui-1.2-2 libeot0
+  libepubgen-0.1-1 libetonyek-0.1-1 libexiv2-14 libfreerdp-client2-2
+  libfreerdp2-2 libgc1c2 libgee-0.8-2 libgexiv2-2 libgom-1.0-0 libgpgmepp6
+  libgpod-common libgpod4 liblangtag-common liblangtag1 liblirc-client0
+  liblua5.3-0 libmediaart-2.0-0 libmspub-0.1-1 libodfgen-0.1-1 libqqwing2v5
+  libraw16 librevenge-0.0-0 libsgutils2-2 libssh-4 libsuitesparseconfig5
+  libvncclient1 libwinpr2-2 libxapian30 libxmlsec1 libxmlsec1-nss lp-solve
+  media-player-info python3-mako python3-markupsafe syslinux syslinux-common
+  syslinux-legacy usb-creator-common
+使用'sudo apt autoremove'来卸载它(它们)。
+将会同时安装下列软件：
+  dh-python ibverbs-providers libboost-atomic-dev libboost-atomic1.65-dev
+  libboost-atomic1.65.1 libboost-chrono-dev libboost-chrono1.65-dev
+  libboost-chrono1.65.1 libboost-container-dev libboost-container1.65-dev
+  libboost-container1.65.1 libboost-context-dev libboost-context1.65-dev
+  libboost-context1.65.1 libboost-coroutine-dev libboost-coroutine1.65-dev
+  libboost-coroutine1.65.1 libboost-date-time-dev libboost-date-time1.65-dev
+  libboost-dev libboost-exception-dev libboost-exception1.65-dev
+  libboost-fiber-dev libboost-fiber1.65-dev libboost-fiber1.65.1
+  libboost-filesystem-dev libboost-filesystem1.65-dev libboost-graph-dev
+  libboost-graph-parallel-dev libboost-graph-parallel1.65-dev
+  libboost-graph-parallel1.65.1 libboost-graph1.65-dev libboost-graph1.65.1
+  libboost-iostreams-dev libboost-iostreams1.65-dev libboost-locale-dev
+  libboost-locale1.65-dev libboost-log-dev libboost-log1.65-dev
+  libboost-log1.65.1 libboost-math-dev libboost-math1.65-dev
+  libboost-math1.65.1 libboost-mpi-dev libboost-mpi-python-dev
+  libboost-mpi-python1.65-dev libboost-mpi-python1.65.1 libboost-mpi1.65-dev
+  libboost-mpi1.65.1 libboost-numpy-dev libboost-numpy1.65-dev
+  libboost-numpy1.65.1 libboost-program-options-dev
+  libboost-program-options1.65-dev libboost-program-options1.65.1
+  libboost-python-dev libboost-python1.65-dev libboost-python1.65.1
+  libboost-random-dev libboost-random1.65-dev libboost-random1.65.1
+  libboost-regex-dev libboost-regex1.65-dev libboost-regex1.65.1
+  libboost-serialization-dev libboost-serialization1.65-dev
+  libboost-serialization1.65.1 libboost-signals-dev libboost-signals1.65-dev
+  libboost-signals1.65.1 libboost-stacktrace-dev libboost-stacktrace1.65-dev
+  libboost-stacktrace1.65.1 libboost-system-dev libboost-system1.65-dev
+  libboost-test-dev libboost-test1.65-dev libboost-test1.65.1
+  libboost-thread-dev libboost-thread1.65-dev libboost-timer-dev
+  libboost-timer1.65-dev libboost-timer1.65.1 libboost-tools-dev
+  libboost-type-erasure-dev libboost-type-erasure1.65-dev
+  libboost-type-erasure1.65.1 libboost-wave-dev libboost-wave1.65-dev
+  libboost-wave1.65.1 libboost1.65-dev libboost1.65-tools-dev
+  libevent-core-2.1-6 libevent-extra-2.1-6 libevent-openssl-2.1-6
+  libevent-pthreads-2.1-6 libfabric1 libgflags2.2 libgoogle-glog0v5
+  libhwloc-dev libhwloc-plugins libhwloc5 libibverbs-dev libibverbs1
+  libjemalloc1 libnl-route-3-200 libnuma-dev libopenmpi-dev libopenmpi2
+  libpsm-infinipath1 libpython-dev libpython2.7-dev libpython3-dev
+  libpython3.6-dev librdmacm1 mpi-default-bin mpi-default-dev
+  ocl-icd-libopencl1 openmpi-bin openmpi-common python-dev python2.7-dev
+  python3-dev python3.6-dev
+建议安装：
+  libboost-doc graphviz libboost1.65-doc gccxml libmpfrc++-dev libntl-dev
+  xsltproc doxygen docbook-xml docbook-xsl default-jdk fop
+  libhwloc-contrib-plugins liblzma-doc openmpi-doc libssl-doc gfortran
+下列【新】软件包将被安装：
+  binutils-dev dh-python ibverbs-providers libboost-all-dev
+  libboost-atomic-dev libboost-atomic1.65-dev libboost-atomic1.65.1
+  libboost-chrono-dev libboost-chrono1.65-dev libboost-chrono1.65.1
+  libboost-container-dev libboost-container1.65-dev libboost-container1.65.1
+  libboost-context-dev libboost-context1.65-dev libboost-context1.65.1
+  libboost-coroutine-dev libboost-coroutine1.65-dev libboost-coroutine1.65.1
+  libboost-date-time-dev libboost-date-time1.65-dev libboost-dev
+  libboost-exception-dev libboost-exception1.65-dev libboost-fiber-dev
+  libboost-fiber1.65-dev libboost-fiber1.65.1 libboost-filesystem-dev
+  libboost-filesystem1.65-dev libboost-graph-dev libboost-graph-parallel-dev
+  libboost-graph-parallel1.65-dev libboost-graph-parallel1.65.1
+  libboost-graph1.65-dev libboost-graph1.65.1 libboost-iostreams-dev
+  libboost-iostreams1.65-dev libboost-locale-dev libboost-locale1.65-dev
+  libboost-log-dev libboost-log1.65-dev libboost-log1.65.1 libboost-math-dev
+  libboost-math1.65-dev libboost-math1.65.1 libboost-mpi-dev
+  libboost-mpi-python-dev libboost-mpi-python1.65-dev
+  libboost-mpi-python1.65.1 libboost-mpi1.65-dev libboost-mpi1.65.1
+  libboost-numpy-dev libboost-numpy1.65-dev libboost-numpy1.65.1
+  libboost-program-options-dev libboost-program-options1.65-dev
+  libboost-program-options1.65.1 libboost-python-dev libboost-python1.65-dev
+  libboost-python1.65.1 libboost-random-dev libboost-random1.65-dev
+  libboost-random1.65.1 libboost-regex-dev libboost-regex1.65-dev
+  libboost-regex1.65.1 libboost-serialization-dev
+  libboost-serialization1.65-dev libboost-serialization1.65.1
+  libboost-signals-dev libboost-signals1.65-dev libboost-signals1.65.1
+  libboost-stacktrace-dev libboost-stacktrace1.65-dev
+  libboost-stacktrace1.65.1 libboost-system-dev libboost-system1.65-dev
+  libboost-test-dev libboost-test1.65-dev libboost-test1.65.1
+  libboost-thread-dev libboost-thread1.65-dev libboost-timer-dev
+  libboost-timer1.65-dev libboost-timer1.65.1 libboost-tools-dev
+  libboost-type-erasure-dev libboost-type-erasure1.65-dev
+  libboost-type-erasure1.65.1 libboost-wave-dev libboost-wave1.65-dev
+  libboost-wave1.65.1 libboost1.65-dev libboost1.65-tools-dev
+  libdouble-conversion-dev libevent-core-2.1-6 libevent-dev
+  libevent-extra-2.1-6 libevent-openssl-2.1-6 libevent-pthreads-2.1-6
+  libfabric1 libgflags-dev libgflags2.2 libgoogle-glog-dev libgoogle-glog0v5
+  libhwloc-dev libhwloc-plugins libhwloc5 libiberty-dev libibverbs-dev
+  libibverbs1 libjemalloc-dev libjemalloc1 liblz4-dev liblzma-dev
+  libnl-route-3-200 libnuma-dev libopenmpi-dev libopenmpi2 libpsm-infinipath1
+  libpython-dev libpython2.7-dev libpython3-dev libpython3.6-dev librdmacm1
+  libsnappy-dev libssl-dev mpi-default-bin mpi-default-dev ocl-icd-libopencl1
+  openmpi-bin openmpi-common python-dev python2.7-dev python3-dev
+  python3.6-dev
+升级了 0 个软件包，新安装了 136 个软件包，要卸载 0 个软件包，有 0 个软件包未被升级。
+需要下载 98.4 MB 的归档。
+解压缩后会消耗 355 MB 的额外空间。
+您希望继续执行吗？ [Y/n] y
+获取:1 http://mirrors.aliyun.com/ubuntu bionic/main amd64 dh-python all 3.20180325ubuntu2 [89.2 kB]
+获取:2 http://mirrors.aliyun.com/ubuntu bionic/main amd64 libnl-route-3-200 amd64 3.2.29-0ubuntu3 [146 kB]
+获取:3 http://mirrors.aliyun.com/ubuntu bionic-updates/main amd64 libibverbs1 amd64 17.1-1ubuntu0.1 [44.5 kB]
+获取:4 http://mirrors.aliyun.com/ubuntu bionic-updates/main amd64 ibverbs-providers amd64 17.1-1ubuntu0.1 [160 kB]
+获取:5 http://mirrors.aliyun.com/ubuntu bionic/main amd64 libboost1.65-dev amd64 1.65.1+dfsg-0ubuntu5 [7,218 kB]
+获取:6 http://mirrors.aliyun.com/ubuntu bionic/main amd64 libboost-dev amd64 1.65.1.0ubuntu1 [3,128 B]
+获取:7 http://mirrors.aliyun.com/ubuntu bionic/main amd64 libboost1.65-tools-dev amd64 1.65.1+dfsg-0ubuntu5 [1,222 kB]
+获取:8 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-tools-dev amd64 1.65.1.0ubuntu1 [3,096 B]
+获取:9 http://mirrors.aliyun.com/ubuntu bionic/main amd64 libboost-atomic1.65.1 amd64 1.65.1+dfsg-0ubuntu5 [7,268 B]
+获取:10 http://mirrors.aliyun.com/ubuntu bionic/main amd64 libboost-atomic1.65-dev amd64 1.65.1+dfsg-0ubuntu5 [5,160 B]
+获取:11 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-atomic-dev amd64 1.65.1.0ubuntu1 [3,224 B]
+获取:12 http://mirrors.aliyun.com/ubuntu bionic/main amd64 libboost-chrono1.65.1 amd64 1.65.1+dfsg-0ubuntu5 [10.2 kB]
+获取:13 http://mirrors.aliyun.com/ubuntu bionic/main amd64 libboost-chrono1.65-dev amd64 1.65.1+dfsg-0ubuntu5 [9,804 B]
+获取:14 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-chrono-dev amd64 1.65.1.0ubuntu1 [3,544 B]
+获取:15 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-container1.65.1 amd64 1.65.1+dfsg-0ubuntu5 [43.4 kB]
+获取:16 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-container1.65-dev amd64 1.65.1+dfsg-0ubuntu5 [41.7 kB]
+获取:17 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-container-dev amd64 1.65.1.0ubuntu1 [3,400 B]
+获取:18 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-context1.65.1 amd64 1.65.1+dfsg-0ubuntu5 [8,336 B]
+获取:19 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-context1.65-dev amd64 1.65.1+dfsg-0ubuntu5 [6,364 B]
+获取:20 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-context-dev amd64 1.65.1.0ubuntu1 [3,120 B]
+获取:21 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-coroutine1.65.1 amd64 1.65.1+dfsg-0ubuntu5 [22.6 kB]
+获取:22 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-coroutine1.65-dev amd64 1.65.1+dfsg-0ubuntu5 [24.2 kB]
+获取:23 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-coroutine-dev amd64 1.65.1.0ubuntu1 [3,196 B]
+获取:24 http://mirrors.aliyun.com/ubuntu bionic/main amd64 libboost-serialization1.65.1 amd64 1.65.1+dfsg-0ubuntu5 [99.3 kB]
+获取:25 http://mirrors.aliyun.com/ubuntu bionic/main amd64 libboost-serialization1.65-dev amd64 1.65.1+dfsg-0ubuntu5 [137 kB]
+获取:26 http://mirrors.aliyun.com/ubuntu bionic/main amd64 libboost-date-time1.65-dev amd64 1.65.1+dfsg-0ubuntu5 [26.7 kB]
+获取:27 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-date-time-dev amd64 1.65.1.0ubuntu1 [2,924 B]
+获取:28 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-exception1.65-dev amd64 1.65.1+dfsg-0ubuntu5 [4,580 B]
+获取:29 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-exception-dev amd64 1.65.1.0ubuntu1 [2,916 B]
+获取:30 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-fiber1.65.1 amd64 1.65.1+dfsg-0ubuntu5 [108 kB]
+获取:31 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-fiber1.65-dev amd64 1.65.1+dfsg-0ubuntu5 [121 kB]
+获取:32 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-fiber-dev amd64 1.65.1.0ubuntu1 [3,348 B]
+获取:33 http://mirrors.aliyun.com/ubuntu bionic/main amd64 libboost-system1.65-dev amd64 1.65.1+dfsg-0ubuntu5 [11.8 kB]
+获取:34 http://mirrors.aliyun.com/ubuntu bionic/main amd64 libboost-filesystem1.65-dev amd64 1.65.1+dfsg-0ubuntu5 [52.1 kB]
+获取:35 http://mirrors.aliyun.com/ubuntu bionic/main amd64 libboost-filesystem-dev amd64 1.65.1.0ubuntu1 [2,960 B]
+获取:36 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-regex1.65.1 amd64 1.65.1+dfsg-0ubuntu5 [259 kB]
+获取:37 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-graph1.65.1 amd64 1.65.1+dfsg-0ubuntu5 [93.4 kB]
+获取:38 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-test1.65.1 amd64 1.65.1+dfsg-0ubuntu5 [240 kB]
+获取:39 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-test1.65-dev amd64 1.65.1+dfsg-0ubuntu5 [289 kB]
+获取:40 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-graph1.65-dev amd64 1.65.1+dfsg-0ubuntu5 [102 kB]
+获取:41 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-graph-dev amd64 1.65.1.0ubuntu1 [3,024 B]
+获取:42 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libpsm-infinipath1 amd64 3.3+20.604758e7-5 [174 kB]
+获取:43 http://mirrors.aliyun.com/ubuntu bionic-updates/main amd64 librdmacm1 amd64 17.1-1ubuntu0.1 [56.0 kB]
+获取:44 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libfabric1 amd64 1.5.3-1 [302 kB]
+获取:45 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libhwloc5 amd64 1.11.9-1 [105 kB]
+获取:46 http://mirrors.aliyun.com/ubuntu bionic/main amd64 ocl-icd-libopencl1 amd64 2.2.11-1ubuntu1 [30.3 kB]
+获取:47 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libhwloc-plugins amd64 1.11.9-1 [12.5 kB]
+获取:48 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libopenmpi2 amd64 2.1.1-8 [2,056 kB]
+获取:49 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-mpi1.65.1 amd64 1.65.1+dfsg-0ubuntu5 [47.0 kB]
+获取:50 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-graph-parallel1.65.1 amd64 1.65.1+dfsg-0ubuntu5 [62.3 kB]
+获取:51 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-graph-parallel1.65-dev amd64 1.65.1+dfsg-0ubuntu5 [64.5 kB]
+获取:52 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-graph-parallel-dev amd64 1.65.1.0ubuntu1 [3,056 B]
+获取:53 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-regex1.65-dev amd64 1.65.1+dfsg-0ubuntu5 [312 kB]
+获取:54 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-iostreams1.65-dev amd64 1.65.1+dfsg-0ubuntu5 [37.0 kB]
+获取:55 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-iostreams-dev amd64 1.65.1.0ubuntu1 [2,916 B]
+获取:56 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-locale1.65-dev amd64 1.65.1+dfsg-0ubuntu5 [329 kB]
+获取:57 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-locale-dev amd64 1.65.1.0ubuntu1 [3,248 B]
+获取:58 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-log1.65.1 amd64 1.65.1+dfsg-0ubuntu5 [384 kB]
+获取:59 http://mirrors.aliyun.com/ubuntu bionic/main amd64 libboost-thread1.65-dev amd64 1.65.1+dfsg-0ubuntu5 [49.0 kB]
+获取:60 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-log1.65-dev amd64 1.65.1+dfsg-0ubuntu5 [553 kB]
+获取:61 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-log-dev amd64 1.65.1.0ubuntu1 [3,124 B]
+获取:62 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-math1.65.1 amd64 1.65.1+dfsg-0ubuntu5 [311 kB]
+获取:63 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-math1.65-dev amd64 1.65.1+dfsg-0ubuntu5 [560 kB]
+获取:64 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-math-dev amd64 1.65.1.0ubuntu1 [3,112 B]
+获取:65 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 openmpi-common all 2.1.1-8 [140 kB]
+获取:66 http://mirrors.aliyun.com/ubuntu bionic-updates/main amd64 libibverbs-dev amd64 17.1-1ubuntu0.1 [103 kB]
+获取:67 http://mirrors.aliyun.com/ubuntu bionic-updates/main amd64 libnuma-dev amd64 2.0.11-2.1ubuntu0.1 [32.3 kB]
+获取:68 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libhwloc-dev amd64 1.11.9-1 [167 kB]
+获取:69 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libopenmpi-dev amd64 2.1.1-8 [925 kB]
+获取:70 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 mpi-default-dev amd64 1.10 [3,888 B]
+获取:71 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-mpi1.65-dev amd64 1.65.1+dfsg-0ubuntu5 [137 kB]
+获取:72 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-mpi-dev amd64 1.65.1.0ubuntu1 [3,004 B]
+获取:73 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-python1.65.1 amd64 1.65.1+dfsg-0ubuntu5 [101 kB]
+获取:74 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 openmpi-bin amd64 2.1.1-8 [88.2 kB]
+获取:75 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 mpi-default-bin amd64 1.10 [3,108 B]
+获取:76 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-mpi-python1.65.1 amd64 1.65.1+dfsg-0ubuntu5 [214 kB]
+获取:77 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-mpi-python1.65-dev amd64 1.65.1+dfsg-0ubuntu5 [24.7 kB]
+获取:78 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-mpi-python-dev amd64 1.65.1.0ubuntu1 [3,040 B]
+获取:79 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-numpy1.65.1 amd64 1.65.1+dfsg-0ubuntu5 [17.4 kB]
+获取:80 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-numpy1.65-dev amd64 1.65.1+dfsg-0ubuntu5 [17.4 kB]
+获取:81 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-numpy-dev amd64 1.65.1.0ubuntu1 [2,960 B]
+获取:82 http://mirrors.aliyun.com/ubuntu bionic/main amd64 libboost-program-options1.65.1 amd64 1.65.1+dfsg-0ubuntu5 [137 kB]
+获取:83 http://mirrors.aliyun.com/ubuntu bionic/main amd64 libboost-program-options1.65-dev amd64 1.65.1+dfsg-0ubuntu5 [163 kB]
+获取:84 http://mirrors.aliyun.com/ubuntu bionic/main amd64 libboost-program-options-dev amd64 1.65.1.0ubuntu1 [2,940 B]
+获取:85 http://mirrors.aliyun.com/ubuntu bionic-updates/main amd64 libpython2.7-dev amd64 2.7.15-4ubuntu4~18.04.1 [28.3 MB]
+获取:86 http://mirrors.aliyun.com/ubuntu bionic/main amd64 libpython-dev amd64 2.7.15~rc1-1 [7,684 B]
+获取:87 http://mirrors.aliyun.com/ubuntu bionic-updates/main amd64 python2.7-dev amd64 2.7.15-4ubuntu4~18.04.1 [279 kB]
+获取:88 http://mirrors.aliyun.com/ubuntu bionic/main amd64 python-dev amd64 2.7.15~rc1-1 [1,256 B]
+获取:89 http://mirrors.aliyun.com/ubuntu bionic-updates/main amd64 libpython3.6-dev amd64 3.6.8-1~18.04.2 [44.8 MB]
+获取:90 http://mirrors.aliyun.com/ubuntu bionic-updates/main amd64 libpython3-dev amd64 3.6.7-1~18.04 [7,328 B]
+获取:91 http://mirrors.aliyun.com/ubuntu bionic-updates/main amd64 python3.6-dev amd64 3.6.8-1~18.04.2 [508 kB]
+获取:92 http://mirrors.aliyun.com/ubuntu bionic-updates/main amd64 python3-dev amd64 3.6.7-1~18.04 [1,288 B]
+获取:93 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-python1.65-dev amd64 1.65.1+dfsg-0ubuntu5 [103 kB]
+获取:93 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-python1.65-dev amd64 1.65.1+dfsg-0ubuntu5 [103 kB]
+获取:94 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-python-dev amd64 1.65.1.0ubuntu1 [3,216 B]
+获取:95 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-random1.65.1 amd64 1.65.1+dfsg-0ubuntu5 [12.8 kB]
+获取:96 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-random1.65-dev amd64 1.65.1+dfsg-0ubuntu5 [12.4 kB]
+获取:97 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-random-dev amd64 1.65.1.0ubuntu1 [2,924 B]
+获取:98 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-regex-dev amd64 1.65.1.0ubuntu1 [3,184 B]
+获取:99 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-serialization-dev amd64 1.65.1.0ubuntu1 [3,144 B]
+获取:100 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-signals1.65.1 amd64 1.65.1+dfsg-0ubuntu5 [30.6 kB]
+获取:101 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-signals1.65-dev amd64 1.65.1+dfsg-0ubuntu5 [33.1 kB]
+获取:102 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-signals-dev amd64 1.65.1.0ubuntu1 [2,996 B]
+获取:103 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-stacktrace1.65.1 amd64 1.65.1+dfsg-0ubuntu5 [49.1 kB]
+获取:104 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-stacktrace1.65-dev amd64 1.65.1+dfsg-0ubuntu5 [25.9 kB]
+获取:105 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-stacktrace-dev amd64 1.65.1.0ubuntu1 [2,924 B]
+获取:106 http://mirrors.aliyun.com/ubuntu bionic/main amd64 libboost-system-dev amd64 1.65.1.0ubuntu1 [3,060 B]
+获取:107 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-test-dev amd64 1.65.1.0ubuntu1 [2,960 B]
+获取:108 http://mirrors.aliyun.com/ubuntu bionic/main amd64 libboost-thread-dev amd64 1.65.1.0ubuntu1 [2,948 B]
+获取:109 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-timer1.65.1 amd64 1.65.1+dfsg-0ubuntu5 [11.9 kB]
+获取:110 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-timer1.65-dev amd64 1.65.1+dfsg-0ubuntu5 [11.8 kB]
+获取:111 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-timer-dev amd64 1.65.1.0ubuntu1 [3,044 B]
+获取:112 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-type-erasure1.65.1 amd64 1.65.1+dfsg-0ubuntu5 [20.7 kB]
+获取:113 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-type-erasure1.65-dev amd64 1.65.1+dfsg-0ubuntu5 [20.1 kB]
+获取:114 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-type-erasure-dev amd64 1.65.1.0ubuntu1 [3,024 B]
+获取:115 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-wave1.65.1 amd64 1.65.1+dfsg-0ubuntu5 [178 kB]
+获取:116 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-wave1.65-dev amd64 1.65.1+dfsg-0ubuntu5 [234 kB]
+获取:117 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-wave-dev amd64 1.65.1.0ubuntu1 [2,952 B]
+获取:118 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libboost-all-dev amd64 1.65.1.0ubuntu1 [2,340 B]
+获取:119 http://mirrors.aliyun.com/ubuntu bionic/main amd64 libevent-core-2.1-6 amd64 2.1.8-stable-4build1 [85.9 kB]
+获取:120 http://mirrors.aliyun.com/ubuntu bionic/main amd64 libevent-extra-2.1-6 amd64 2.1.8-stable-4build1 [56.2 kB]
+获取:121 http://mirrors.aliyun.com/ubuntu bionic/main amd64 libevent-pthreads-2.1-6 amd64 2.1.8-stable-4build1 [5,228 B]
+获取:122 http://mirrors.aliyun.com/ubuntu bionic/main amd64 libevent-openssl-2.1-6 amd64 2.1.8-stable-4build1 [11.8 kB]
+获取:123 http://mirrors.aliyun.com/ubuntu bionic/main amd64 libevent-dev amd64 2.1.8-stable-4build1 [261 kB]
+获取:124 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libgflags2.2 amd64 2.2.1-1 [72.4 kB]
+获取:125 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libgflags-dev amd64 2.2.1-1 [86.1 kB]
+获取:126 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libgoogle-glog0v5 amd64 0.3.5-1 [50.5 kB]
+获取:127 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libgoogle-glog-dev amd64 0.3.5-1 [73.8 kB]
+获取:128 http://mirrors.aliyun.com/ubuntu bionic/main amd64 libiberty-dev amd64 20170913-1 [155 kB]
+获取:129 http://mirrors.aliyun.com/ubuntu bionic-updates/main amd64 libssl-dev amd64 1.1.1-1ubuntu2.1~18.04.4 [1,566 kB]
+获取:130 http://mirrors.aliyun.com/ubuntu bionic-updates/main amd64 binutils-dev amd64 2.30-21ubuntu1~18.04.2 [2,455 kB]
+获取:131 http://mirrors.aliyun.com/ubuntu bionic/main amd64 libdouble-conversion-dev amd64 2.0.1-4ubuntu1 [47.9 kB]
+获取:132 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libjemalloc1 amd64 3.6.0-11 [82.4 kB]
+获取:133 http://mirrors.aliyun.com/ubuntu bionic/universe amd64 libjemalloc-dev amd64 3.6.0-11 [156 kB]
+获取:134 http://mirrors.aliyun.com/ubuntu bionic/main amd64 liblz4-dev amd64 0.0~r131-2ubuntu3 [61.4 kB]
+获取:135 http://mirrors.aliyun.com/ubuntu bionic/main amd64 liblzma-dev amd64 5.2.2-1.3 [145 kB]
+获取:136 http://mirrors.aliyun.com/ubuntu bionic/main amd64 libsnappy-dev amd64 1.1.7-1 [27.2 kB]
+已下载 98.4 MB，耗时 34秒 (2,863 kB/s)                                         
+正在从软件包中解出模板：100%
+正在选中未选择的软件包 dh-python。
+(正在读取数据库 ... 系统当前共安装有 183761 个文件和目录。)
+正准备解包 .../000-dh-python_3.20180325ubuntu2_all.deb  ...
+正在解包 dh-python (3.20180325ubuntu2) ...
+正在选中未选择的软件包 libnl-route-3-200:amd64。
+正准备解包 .../001-libnl-route-3-200_3.2.29-0ubuntu3_amd64.deb  ...
+正在解包 libnl-route-3-200:amd64 (3.2.29-0ubuntu3) ...
+正在选中未选择的软件包 libibverbs1:amd64。
+正准备解包 .../002-libibverbs1_17.1-1ubuntu0.1_amd64.deb  ...
+正在解包 libibverbs1:amd64 (17.1-1ubuntu0.1) ...
+正在选中未选择的软件包 ibverbs-providers:amd64。
+正准备解包 .../003-ibverbs-providers_17.1-1ubuntu0.1_amd64.deb  ...
+正在解包 ibverbs-providers:amd64 (17.1-1ubuntu0.1) ...
+正在选中未选择的软件包 libboost1.65-dev:amd64。
+正准备解包 .../004-libboost1.65-dev_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-dev:amd64。
+正准备解包 .../005-libboost-dev_1.65.1.0ubuntu1_amd64.deb  ...
+正在解包 libboost-dev:amd64 (1.65.1.0ubuntu1) ...
+正在选中未选择的软件包 libboost1.65-tools-dev。
+正准备解包 .../006-libboost1.65-tools-dev_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost1.65-tools-dev (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-tools-dev。
+正准备解包 .../007-libboost-tools-dev_1.65.1.0ubuntu1_amd64.deb  ...
+正在解包 libboost-tools-dev (1.65.1.0ubuntu1) ...
+正在选中未选择的软件包 libboost-atomic1.65.1:amd64。
+正准备解包 .../008-libboost-atomic1.65.1_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-atomic1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-atomic1.65-dev:amd64。
+正准备解包 .../009-libboost-atomic1.65-dev_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-atomic1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-atomic-dev:amd64。
+正准备解包 .../010-libboost-atomic-dev_1.65.1.0ubuntu1_amd64.deb  ...
+正在解包 libboost-atomic-dev:amd64 (1.65.1.0ubuntu1) ...
+正在选中未选择的软件包 libboost-chrono1.65.1:amd64。
+正准备解包 .../011-libboost-chrono1.65.1_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-chrono1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-chrono1.65-dev:amd64。
+正准备解包 .../012-libboost-chrono1.65-dev_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-chrono1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-chrono-dev:amd64。
+正准备解包 .../013-libboost-chrono-dev_1.65.1.0ubuntu1_amd64.deb  ...
+正在解包 libboost-chrono-dev:amd64 (1.65.1.0ubuntu1) ...
+正在选中未选择的软件包 libboost-container1.65.1:amd64。
+正准备解包 .../014-libboost-container1.65.1_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-container1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-container1.65-dev:amd64。
+正准备解包 .../015-libboost-container1.65-dev_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-container1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-container-dev:amd64。
+正准备解包 .../016-libboost-container-dev_1.65.1.0ubuntu1_amd64.deb  ...
+正在解包 libboost-container-dev:amd64 (1.65.1.0ubuntu1) ...
+正在选中未选择的软件包 libboost-context1.65.1:amd64。
+正准备解包 .../017-libboost-context1.65.1_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-context1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-context1.65-dev:amd64。
+正准备解包 .../018-libboost-context1.65-dev_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-context1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-context-dev:amd64。
+正准备解包 .../019-libboost-context-dev_1.65.1.0ubuntu1_amd64.deb  ...
+正在解包 libboost-context-dev:amd64 (1.65.1.0ubuntu1) ...
+正在选中未选择的软件包 libboost-coroutine1.65.1:amd64。
+正准备解包 .../020-libboost-coroutine1.65.1_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-coroutine1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-coroutine1.65-dev:amd64。
+正准备解包 .../021-libboost-coroutine1.65-dev_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-coroutine1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-coroutine-dev:amd64。
+正准备解包 .../022-libboost-coroutine-dev_1.65.1.0ubuntu1_amd64.deb  ...
+正在解包 libboost-coroutine-dev:amd64 (1.65.1.0ubuntu1) ...
+正在选中未选择的软件包 libboost-serialization1.65.1:amd64。
+正准备解包 .../023-libboost-serialization1.65.1_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-serialization1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-serialization1.65-dev:amd64。
+正准备解包 .../024-libboost-serialization1.65-dev_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-serialization1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-date-time1.65-dev:amd64。
+正准备解包 .../025-libboost-date-time1.65-dev_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-date-time1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-date-time-dev:amd64。
+正准备解包 .../026-libboost-date-time-dev_1.65.1.0ubuntu1_amd64.deb  ...
+正在解包 libboost-date-time-dev:amd64 (1.65.1.0ubuntu1) ...
+正在选中未选择的软件包 libboost-exception1.65-dev:amd64。
+正准备解包 .../027-libboost-exception1.65-dev_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-exception1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-exception-dev:amd64。
+正准备解包 .../028-libboost-exception-dev_1.65.1.0ubuntu1_amd64.deb  ...
+正在解包 libboost-exception-dev:amd64 (1.65.1.0ubuntu1) ...
+正在选中未选择的软件包 libboost-fiber1.65.1:amd64。
+正准备解包 .../029-libboost-fiber1.65.1_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-fiber1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-fiber1.65-dev:amd64。
+正准备解包 .../030-libboost-fiber1.65-dev_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-fiber1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-fiber-dev:amd64。
+正准备解包 .../031-libboost-fiber-dev_1.65.1.0ubuntu1_amd64.deb  ...
+正在解包 libboost-fiber-dev:amd64 (1.65.1.0ubuntu1) ...
+正在选中未选择的软件包 libboost-system1.65-dev:amd64。
+正准备解包 .../032-libboost-system1.65-dev_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-system1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-filesystem1.65-dev:amd64。
+正准备解包 .../033-libboost-filesystem1.65-dev_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-filesystem1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-filesystem-dev:amd64。
+正准备解包 .../034-libboost-filesystem-dev_1.65.1.0ubuntu1_amd64.deb  ...
+正在解包 libboost-filesystem-dev:amd64 (1.65.1.0ubuntu1) ...
+正在选中未选择的软件包 libboost-regex1.65.1:amd64。
+正准备解包 .../035-libboost-regex1.65.1_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-regex1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-graph1.65.1:amd64。
+正准备解包 .../036-libboost-graph1.65.1_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-graph1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-test1.65.1:amd64。
+正准备解包 .../037-libboost-test1.65.1_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-test1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-test1.65-dev:amd64。
+正准备解包 .../038-libboost-test1.65-dev_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-test1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-graph1.65-dev:amd64。
+正准备解包 .../039-libboost-graph1.65-dev_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-graph1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-graph-dev:amd64。
+正准备解包 .../040-libboost-graph-dev_1.65.1.0ubuntu1_amd64.deb  ...
+正在解包 libboost-graph-dev:amd64 (1.65.1.0ubuntu1) ...
+正在选中未选择的软件包 libpsm-infinipath1。
+正准备解包 .../041-libpsm-infinipath1_3.3+20.604758e7-5_amd64.deb  ...
+正在解包 libpsm-infinipath1 (3.3+20.604758e7-5) ...
+正在选中未选择的软件包 librdmacm1:amd64。
+正准备解包 .../042-librdmacm1_17.1-1ubuntu0.1_amd64.deb  ...
+正在解包 librdmacm1:amd64 (17.1-1ubuntu0.1) ...
+正在选中未选择的软件包 libfabric1。
+正准备解包 .../043-libfabric1_1.5.3-1_amd64.deb  ...
+正在解包 libfabric1 (1.5.3-1) ...
+正在选中未选择的软件包 libhwloc5:amd64。
+正准备解包 .../044-libhwloc5_1.11.9-1_amd64.deb  ...
+正在解包 libhwloc5:amd64 (1.11.9-1) ...
+正在选中未选择的软件包 ocl-icd-libopencl1:amd64。
+正准备解包 .../045-ocl-icd-libopencl1_2.2.11-1ubuntu1_amd64.deb  ...
+正在解包 ocl-icd-libopencl1:amd64 (2.2.11-1ubuntu1) ...
+正在选中未选择的软件包 libhwloc-plugins。
+正准备解包 .../046-libhwloc-plugins_1.11.9-1_amd64.deb  ...
+正在解包 libhwloc-plugins (1.11.9-1) ...
+正在选中未选择的软件包 libopenmpi2:amd64。
+正准备解包 .../047-libopenmpi2_2.1.1-8_amd64.deb  ...
+正在解包 libopenmpi2:amd64 (2.1.1-8) ...
+正在选中未选择的软件包 libboost-mpi1.65.1。
+正准备解包 .../048-libboost-mpi1.65.1_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-mpi1.65.1 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-graph-parallel1.65.1。
+正准备解包 .../049-libboost-graph-parallel1.65.1_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-graph-parallel1.65.1 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-graph-parallel1.65-dev。
+正准备解包 .../050-libboost-graph-parallel1.65-dev_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-graph-parallel1.65-dev (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-graph-parallel-dev。
+正准备解包 .../051-libboost-graph-parallel-dev_1.65.1.0ubuntu1_amd64.deb  ...
+正在解包 libboost-graph-parallel-dev (1.65.1.0ubuntu1) ...
+正在选中未选择的软件包 libboost-regex1.65-dev:amd64。
+正准备解包 .../052-libboost-regex1.65-dev_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-regex1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-iostreams1.65-dev:amd64。
+正准备解包 .../053-libboost-iostreams1.65-dev_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-iostreams1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-iostreams-dev:amd64。
+正准备解包 .../054-libboost-iostreams-dev_1.65.1.0ubuntu1_amd64.deb  ...
+正在解包 libboost-iostreams-dev:amd64 (1.65.1.0ubuntu1) ...
+正在选中未选择的软件包 libboost-locale1.65-dev:amd64。
+正准备解包 .../055-libboost-locale1.65-dev_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-locale1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-locale-dev:amd64。
+正准备解包 .../056-libboost-locale-dev_1.65.1.0ubuntu1_amd64.deb  ...
+正在解包 libboost-locale-dev:amd64 (1.65.1.0ubuntu1) ...
+正在选中未选择的软件包 libboost-log1.65.1。
+正准备解包 .../057-libboost-log1.65.1_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-log1.65.1 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-thread1.65-dev:amd64。
+正准备解包 .../058-libboost-thread1.65-dev_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-thread1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-log1.65-dev。
+正准备解包 .../059-libboost-log1.65-dev_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-log1.65-dev (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-log-dev。
+正准备解包 .../060-libboost-log-dev_1.65.1.0ubuntu1_amd64.deb  ...
+正在解包 libboost-log-dev (1.65.1.0ubuntu1) ...
+正在选中未选择的软件包 libboost-math1.65.1:amd64。
+正准备解包 .../061-libboost-math1.65.1_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-math1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-math1.65-dev:amd64。
+正准备解包 .../062-libboost-math1.65-dev_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-math1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-math-dev:amd64。
+正准备解包 .../063-libboost-math-dev_1.65.1.0ubuntu1_amd64.deb  ...
+正在解包 libboost-math-dev:amd64 (1.65.1.0ubuntu1) ...
+正在选中未选择的软件包 openmpi-common。
+正准备解包 .../064-openmpi-common_2.1.1-8_all.deb  ...
+正在解包 openmpi-common (2.1.1-8) ...
+正在选中未选择的软件包 libibverbs-dev:amd64。
+正准备解包 .../065-libibverbs-dev_17.1-1ubuntu0.1_amd64.deb  ...
+正在解包 libibverbs-dev:amd64 (17.1-1ubuntu0.1) ...
+正在选中未选择的软件包 libnuma-dev:amd64。
+正准备解包 .../066-libnuma-dev_2.0.11-2.1ubuntu0.1_amd64.deb  ...
+正在解包 libnuma-dev:amd64 (2.0.11-2.1ubuntu0.1) ...
+正在选中未选择的软件包 libhwloc-dev:amd64。
+正准备解包 .../067-libhwloc-dev_1.11.9-1_amd64.deb  ...
+正在解包 libhwloc-dev:amd64 (1.11.9-1) ...
+正在选中未选择的软件包 libopenmpi-dev。
+正准备解包 .../068-libopenmpi-dev_2.1.1-8_amd64.deb  ...
+正在解包 libopenmpi-dev (2.1.1-8) ...
+正在选中未选择的软件包 mpi-default-dev。
+正准备解包 .../069-mpi-default-dev_1.10_amd64.deb  ...
+正在解包 mpi-default-dev (1.10) ...
+正在选中未选择的软件包 libboost-mpi1.65-dev。
+正准备解包 .../070-libboost-mpi1.65-dev_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-mpi1.65-dev (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-mpi-dev。
+正准备解包 .../071-libboost-mpi-dev_1.65.1.0ubuntu1_amd64.deb  ...
+正在解包 libboost-mpi-dev (1.65.1.0ubuntu1) ...
+正在选中未选择的软件包 libboost-python1.65.1。
+正准备解包 .../072-libboost-python1.65.1_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-python1.65.1 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 openmpi-bin。
+正准备解包 .../073-openmpi-bin_2.1.1-8_amd64.deb  ...
+正在解包 openmpi-bin (2.1.1-8) ...
+正在选中未选择的软件包 mpi-default-bin。
+正准备解包 .../074-mpi-default-bin_1.10_amd64.deb  ...
+正在解包 mpi-default-bin (1.10) ...
+正在选中未选择的软件包 libboost-mpi-python1.65.1。
+正准备解包 .../075-libboost-mpi-python1.65.1_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-mpi-python1.65.1 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-mpi-python1.65-dev。
+正准备解包 .../076-libboost-mpi-python1.65-dev_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-mpi-python1.65-dev (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-mpi-python-dev。
+正准备解包 .../077-libboost-mpi-python-dev_1.65.1.0ubuntu1_amd64.deb  ...
+正在解包 libboost-mpi-python-dev (1.65.1.0ubuntu1) ...
+正在选中未选择的软件包 libboost-numpy1.65.1。
+正准备解包 .../078-libboost-numpy1.65.1_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-numpy1.65.1 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-numpy1.65-dev。
+正准备解包 .../079-libboost-numpy1.65-dev_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-numpy1.65-dev (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-numpy-dev。
+正准备解包 .../080-libboost-numpy-dev_1.65.1.0ubuntu1_amd64.deb  ...
+正在解包 libboost-numpy-dev (1.65.1.0ubuntu1) ...
+正在选中未选择的软件包 libboost-program-options1.65.1:amd64。
+正准备解包 .../081-libboost-program-options1.65.1_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-program-options1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-program-options1.65-dev:amd64。
+正准备解包 .../082-libboost-program-options1.65-dev_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-program-options1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-program-options-dev:amd64。
+正准备解包 .../083-libboost-program-options-dev_1.65.1.0ubuntu1_amd64.deb  ...
+正在解包 libboost-program-options-dev:amd64 (1.65.1.0ubuntu1) ...
+正在选中未选择的软件包 libpython2.7-dev:amd64。
+正准备解包 .../084-libpython2.7-dev_2.7.15-4ubuntu4~18.04.1_amd64.deb  ...
+正在解包 libpython2.7-dev:amd64 (2.7.15-4ubuntu4~18.04.1) ...
+正在选中未选择的软件包 libpython-dev:amd64。
+正准备解包 .../085-libpython-dev_2.7.15~rc1-1_amd64.deb  ...
+正在解包 libpython-dev:amd64 (2.7.15~rc1-1) ...
+正在选中未选择的软件包 python2.7-dev。
+正准备解包 .../086-python2.7-dev_2.7.15-4ubuntu4~18.04.1_amd64.deb  ...
+正在解包 python2.7-dev (2.7.15-4ubuntu4~18.04.1) ...
+正在选中未选择的软件包 python-dev。
+正准备解包 .../087-python-dev_2.7.15~rc1-1_amd64.deb  ...
+正在解包 python-dev (2.7.15~rc1-1) ...
+正在选中未选择的软件包 libpython3.6-dev:amd64。
+正准备解包 .../088-libpython3.6-dev_3.6.8-1~18.04.2_amd64.deb  ...
+正在解包 libpython3.6-dev:amd64 (3.6.8-1~18.04.2) ...
+正在选中未选择的软件包 libpython3-dev:amd64。
+正准备解包 .../089-libpython3-dev_3.6.7-1~18.04_amd64.deb  ...
+正在解包 libpython3-dev:amd64 (3.6.7-1~18.04) ...
+正在选中未选择的软件包 python3.6-dev。
+正准备解包 .../090-python3.6-dev_3.6.8-1~18.04.2_amd64.deb  ...
+正在解包 python3.6-dev (3.6.8-1~18.04.2) ...
+正在选中未选择的软件包 python3-dev。
+正准备解包 .../091-python3-dev_3.6.7-1~18.04_amd64.deb  ...
+正在解包 python3-dev (3.6.7-1~18.04) ...
+正在选中未选择的软件包 libboost-python1.65-dev。
+正准备解包 .../092-libboost-python1.65-dev_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-python1.65-dev (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-python-dev。
+正准备解包 .../093-libboost-python-dev_1.65.1.0ubuntu1_amd64.deb  ...
+正在解包 libboost-python-dev (1.65.1.0ubuntu1) ...
+正在选中未选择的软件包 libboost-random1.65.1:amd64。
+正准备解包 .../094-libboost-random1.65.1_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-random1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-random1.65-dev:amd64。
+正准备解包 .../095-libboost-random1.65-dev_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-random1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-random-dev:amd64。
+正准备解包 .../096-libboost-random-dev_1.65.1.0ubuntu1_amd64.deb  ...
+正在解包 libboost-random-dev:amd64 (1.65.1.0ubuntu1) ...
+正在选中未选择的软件包 libboost-regex-dev:amd64。
+正准备解包 .../097-libboost-regex-dev_1.65.1.0ubuntu1_amd64.deb  ...
+正在解包 libboost-regex-dev:amd64 (1.65.1.0ubuntu1) ...
+正在选中未选择的软件包 libboost-serialization-dev:amd64。
+正准备解包 .../098-libboost-serialization-dev_1.65.1.0ubuntu1_amd64.deb  ...
+正在解包 libboost-serialization-dev:amd64 (1.65.1.0ubuntu1) ...
+正在选中未选择的软件包 libboost-signals1.65.1:amd64。
+正准备解包 .../099-libboost-signals1.65.1_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-signals1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-signals1.65-dev:amd64。
+正准备解包 .../100-libboost-signals1.65-dev_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-signals1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-signals-dev:amd64。
+正准备解包 .../101-libboost-signals-dev_1.65.1.0ubuntu1_amd64.deb  ...
+正在解包 libboost-signals-dev:amd64 (1.65.1.0ubuntu1) ...
+正在选中未选择的软件包 libboost-stacktrace1.65.1:amd64。
+正准备解包 .../102-libboost-stacktrace1.65.1_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-stacktrace1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-stacktrace1.65-dev:amd64。
+正准备解包 .../103-libboost-stacktrace1.65-dev_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-stacktrace1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-stacktrace-dev:amd64。
+正准备解包 .../104-libboost-stacktrace-dev_1.65.1.0ubuntu1_amd64.deb  ...
+正在解包 libboost-stacktrace-dev:amd64 (1.65.1.0ubuntu1) ...
+正在选中未选择的软件包 libboost-system-dev:amd64。
+正准备解包 .../105-libboost-system-dev_1.65.1.0ubuntu1_amd64.deb  ...
+正在解包 libboost-system-dev:amd64 (1.65.1.0ubuntu1) ...
+正在选中未选择的软件包 libboost-test-dev:amd64。
+正准备解包 .../106-libboost-test-dev_1.65.1.0ubuntu1_amd64.deb  ...
+正在解包 libboost-test-dev:amd64 (1.65.1.0ubuntu1) ...
+正在选中未选择的软件包 libboost-thread-dev:amd64。
+正准备解包 .../107-libboost-thread-dev_1.65.1.0ubuntu1_amd64.deb  ...
+正在解包 libboost-thread-dev:amd64 (1.65.1.0ubuntu1) ...
+正在选中未选择的软件包 libboost-timer1.65.1:amd64。
+正准备解包 .../108-libboost-timer1.65.1_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-timer1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-timer1.65-dev:amd64。
+正准备解包 .../109-libboost-timer1.65-dev_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-timer1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-timer-dev:amd64。
+正准备解包 .../110-libboost-timer-dev_1.65.1.0ubuntu1_amd64.deb  ...
+正在解包 libboost-timer-dev:amd64 (1.65.1.0ubuntu1) ...
+正在选中未选择的软件包 libboost-type-erasure1.65.1:amd64。
+正准备解包 .../111-libboost-type-erasure1.65.1_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-type-erasure1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-type-erasure1.65-dev:amd64。
+正准备解包 .../112-libboost-type-erasure1.65-dev_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-type-erasure1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-type-erasure-dev:amd64。
+正准备解包 .../113-libboost-type-erasure-dev_1.65.1.0ubuntu1_amd64.deb  ...
+正在解包 libboost-type-erasure-dev:amd64 (1.65.1.0ubuntu1) ...
+正在选中未选择的软件包 libboost-wave1.65.1:amd64。
+正准备解包 .../114-libboost-wave1.65.1_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-wave1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-wave1.65-dev:amd64。
+正准备解包 .../115-libboost-wave1.65-dev_1.65.1+dfsg-0ubuntu5_amd64.deb  ...
+正在解包 libboost-wave1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在选中未选择的软件包 libboost-wave-dev:amd64。
+正准备解包 .../116-libboost-wave-dev_1.65.1.0ubuntu1_amd64.deb  ...
+正在解包 libboost-wave-dev:amd64 (1.65.1.0ubuntu1) ...
+正在选中未选择的软件包 libboost-all-dev。
+正准备解包 .../117-libboost-all-dev_1.65.1.0ubuntu1_amd64.deb  ...
+正在解包 libboost-all-dev (1.65.1.0ubuntu1) ...
+正在选中未选择的软件包 libevent-core-2.1-6:amd64。
+正准备解包 .../118-libevent-core-2.1-6_2.1.8-stable-4build1_amd64.deb  ...
+正在解包 libevent-core-2.1-6:amd64 (2.1.8-stable-4build1) ...
+正在选中未选择的软件包 libevent-extra-2.1-6:amd64。
+正准备解包 .../119-libevent-extra-2.1-6_2.1.8-stable-4build1_amd64.deb  ...
+正在解包 libevent-extra-2.1-6:amd64 (2.1.8-stable-4build1) ...
+正在选中未选择的软件包 libevent-pthreads-2.1-6:amd64。
+正准备解包 .../120-libevent-pthreads-2.1-6_2.1.8-stable-4build1_amd64.deb  ...
+正在解包 libevent-pthreads-2.1-6:amd64 (2.1.8-stable-4build1) ...
+正在选中未选择的软件包 libevent-openssl-2.1-6:amd64。
+正准备解包 .../121-libevent-openssl-2.1-6_2.1.8-stable-4build1_amd64.deb  ...
+正在解包 libevent-openssl-2.1-6:amd64 (2.1.8-stable-4build1) ...
+正在选中未选择的软件包 libevent-dev。
+正准备解包 .../122-libevent-dev_2.1.8-stable-4build1_amd64.deb  ...
+正在解包 libevent-dev (2.1.8-stable-4build1) ...
+正在选中未选择的软件包 libgflags2.2。
+正准备解包 .../123-libgflags2.2_2.2.1-1_amd64.deb  ...
+正在解包 libgflags2.2 (2.2.1-1) ...
+正在选中未选择的软件包 libgflags-dev。
+正准备解包 .../124-libgflags-dev_2.2.1-1_amd64.deb  ...
+正在解包 libgflags-dev (2.2.1-1) ...
+正在选中未选择的软件包 libgoogle-glog0v5。
+正准备解包 .../125-libgoogle-glog0v5_0.3.5-1_amd64.deb  ...
+正在解包 libgoogle-glog0v5 (0.3.5-1) ...
+正在选中未选择的软件包 libgoogle-glog-dev。
+正准备解包 .../126-libgoogle-glog-dev_0.3.5-1_amd64.deb  ...
+正在解包 libgoogle-glog-dev (0.3.5-1) ...
+正在选中未选择的软件包 libiberty-dev:amd64。
+正准备解包 .../127-libiberty-dev_20170913-1_amd64.deb  ...
+正在解包 libiberty-dev:amd64 (20170913-1) ...
+正在选中未选择的软件包 libssl-dev:amd64。
+正准备解包 .../128-libssl-dev_1.1.1-1ubuntu2.1~18.04.4_amd64.deb  ...
+正在解包 libssl-dev:amd64 (1.1.1-1ubuntu2.1~18.04.4) ...
+正在选中未选择的软件包 binutils-dev。
+正准备解包 .../129-binutils-dev_2.30-21ubuntu1~18.04.2_amd64.deb  ...
+正在解包 binutils-dev (2.30-21ubuntu1~18.04.2) ...
+正在选中未选择的软件包 libdouble-conversion-dev:amd64。
+正准备解包 .../130-libdouble-conversion-dev_2.0.1-4ubuntu1_amd64.deb  ...
+正在解包 libdouble-conversion-dev:amd64 (2.0.1-4ubuntu1) ...
+正在选中未选择的软件包 libjemalloc1。
+正准备解包 .../131-libjemalloc1_3.6.0-11_amd64.deb  ...
+正在解包 libjemalloc1 (3.6.0-11) ...
+正在选中未选择的软件包 libjemalloc-dev。
+正准备解包 .../132-libjemalloc-dev_3.6.0-11_amd64.deb  ...
+正在解包 libjemalloc-dev (3.6.0-11) ...
+正在选中未选择的软件包 liblz4-dev:amd64。
+正准备解包 .../133-liblz4-dev_0.0~r131-2ubuntu3_amd64.deb  ...
+正在解包 liblz4-dev:amd64 (0.0~r131-2ubuntu3) ...
+正在选中未选择的软件包 liblzma-dev:amd64。
+正准备解包 .../134-liblzma-dev_5.2.2-1.3_amd64.deb  ...
+正在解包 liblzma-dev:amd64 (5.2.2-1.3) ...
+正在选中未选择的软件包 libsnappy-dev:amd64。
+正准备解包 .../135-libsnappy-dev_1.1.7-1_amd64.deb  ...
+正在解包 libsnappy-dev:amd64 (1.1.7-1) ...
+正在设置 binutils-dev (2.30-21ubuntu1~18.04.2) ...
+正在设置 libboost-container1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libgflags2.2 (2.2.1-1) ...
+正在设置 libboost-stacktrace1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libgflags-dev (2.2.1-1) ...
+正在设置 libboost-python1.65.1 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libevent-core-2.1-6:amd64 (2.1.8-stable-4build1) ...
+正在设置 libdouble-conversion-dev:amd64 (2.0.1-4ubuntu1) ...
+正在设置 libjemalloc1 (3.6.0-11) ...
+正在设置 libssl-dev:amd64 (1.1.1-1ubuntu2.1~18.04.4) ...
+正在设置 libevent-openssl-2.1-6:amd64 (2.1.8-stable-4build1) ...
+正在设置 libboost-atomic1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libnl-route-3-200:amd64 (3.2.29-0ubuntu3) ...
+正在设置 libboost-type-erasure1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libboost-signals1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libpython3.6-dev:amd64 (3.6.8-1~18.04.2) ...
+正在设置 libhwloc5:amd64 (1.11.9-1) ...
+正在设置 libjemalloc-dev (3.6.0-11) ...
+正在设置 libboost-serialization1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libpsm-infinipath1 (3.3+20.604758e7-5) ...
+update-alternatives: 使用 /usr/lib/libpsm1/libpsm_infinipath.so.1.16 来在自动模式中提供 /usr/lib/x86_64-linux-gnu/libpsm_infinipath.so.1 (libpsm_infinipath.so.1)
+正在设置 libboost-context1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libevent-pthreads-2.1-6:amd64 (2.1.8-stable-4build1) ...
+正在设置 openmpi-common (2.1.1-8) ...
+正在设置 libsnappy-dev:amd64 (1.1.7-1) ...
+正在设置 libgoogle-glog0v5 (0.3.5-1) ...
+正在设置 libboost-wave1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libiberty-dev:amd64 (20170913-1) ...
+正在设置 libboost-chrono1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libpython2.7-dev:amd64 (2.7.15-4ubuntu4~18.04.1) ...
+正在设置 liblzma-dev:amd64 (5.2.2-1.3) ...
+正在设置 liblz4-dev:amd64 (0.0~r131-2ubuntu3) ...
+正在设置 libnuma-dev:amd64 (2.0.11-2.1ubuntu0.1) ...
+正在设置 ocl-icd-libopencl1:amd64 (2.2.11-1ubuntu1) ...
+正在设置 libboost-program-options1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libboost-numpy1.65.1 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 python3.6-dev (3.6.8-1~18.04.2) ...
+正在设置 libboost-test1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 dh-python (3.20180325ubuntu2) ...
+正在设置 libboost1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 python2.7-dev (2.7.15-4ubuntu4~18.04.1) ...
+正在设置 libboost-random1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libboost1.65-tools-dev (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libboost-signals1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libboost-type-erasure1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libboost-math1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libevent-extra-2.1-6:amd64 (2.1.8-stable-4build1) ...
+正在设置 libboost-regex1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libboost-signals-dev:amd64 (1.65.1.0ubuntu1) ...
+正在设置 libboost-locale1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libpython3-dev:amd64 (3.6.7-1~18.04) ...
+正在设置 libboost-locale-dev:amd64 (1.65.1.0ubuntu1) ...
+正在设置 libibverbs1:amd64 (17.1-1ubuntu0.1) ...
+正在设置 libboost-fiber1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libpython-dev:amd64 (2.7.15~rc1-1) ...
+正在设置 libboost-tools-dev (1.65.1.0ubuntu1) ...
+正在设置 libboost-program-options1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libboost-stacktrace1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libboost-atomic1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libboost-atomic-dev:amd64 (1.65.1.0ubuntu1) ...
+正在设置 libboost-test1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libhwloc-dev:amd64 (1.11.9-1) ...
+正在设置 libboost-numpy1.65-dev (1.65.1+dfsg-0ubuntu5) ...
+正在设置 python-dev (2.7.15~rc1-1) ...
+正在设置 libboost-stacktrace-dev:amd64 (1.65.1.0ubuntu1) ...
+正在设置 libboost-type-erasure-dev:amd64 (1.65.1.0ubuntu1) ...
+正在设置 libgoogle-glog-dev (0.3.5-1) ...
+正在设置 python3-dev (3.6.7-1~18.04) ...
+正在设置 libboost-serialization1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 librdmacm1:amd64 (17.1-1ubuntu0.1) ...
+正在设置 libboost-chrono1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libboost-graph1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libboost-exception1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libboost-log1.65.1 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libboost-coroutine1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libhwloc-plugins (1.11.9-1) ...
+正在设置 libboost-exception-dev:amd64 (1.65.1.0ubuntu1) ...
+正在设置 libboost-random1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libevent-dev (2.1.8-stable-4build1) ...
+正在设置 libboost-python1.65-dev (1.65.1+dfsg-0ubuntu5) ...
+正在设置 ibverbs-providers:amd64 (17.1-1ubuntu0.1) ...
+正在设置 libboost-context1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libboost-timer1.65.1:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libboost-context-dev:amd64 (1.65.1.0ubuntu1) ...
+正在设置 libboost-test-dev:amd64 (1.65.1.0ubuntu1) ...
+正在设置 libboost-system1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libboost-regex1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libboost-dev:amd64 (1.65.1.0ubuntu1) ...
+正在设置 libboost-container1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libboost-math1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libboost-math-dev:amd64 (1.65.1.0ubuntu1) ...
+正在设置 libibverbs-dev:amd64 (17.1-1ubuntu0.1) ...
+正在设置 libboost-numpy-dev (1.65.1.0ubuntu1) ...
+正在设置 libboost-program-options-dev:amd64 (1.65.1.0ubuntu1) ...
+正在设置 libboost-python-dev (1.65.1.0ubuntu1) ...
+正在设置 libboost-serialization-dev:amd64 (1.65.1.0ubuntu1) ...
+正在设置 libboost-fiber1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libboost-coroutine1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libboost-graph1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libfabric1 (1.5.3-1) ...
+正在设置 libboost-date-time1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libboost-chrono-dev:amd64 (1.65.1.0ubuntu1) ...
+正在设置 libboost-system-dev:amd64 (1.65.1.0ubuntu1) ...
+正在设置 libboost-graph-dev:amd64 (1.65.1.0ubuntu1) ...
+正在设置 libboost-fiber-dev:amd64 (1.65.1.0ubuntu1) ...
+正在设置 libboost-iostreams1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libboost-date-time-dev:amd64 (1.65.1.0ubuntu1) ...
+正在设置 libboost-filesystem1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libboost-container-dev:amd64 (1.65.1.0ubuntu1) ...
+正在设置 libboost-random-dev:amd64 (1.65.1.0ubuntu1) ...
+正在设置 libboost-thread1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libboost-timer1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libboost-iostreams-dev:amd64 (1.65.1.0ubuntu1) ...
+正在设置 libboost-regex-dev:amd64 (1.65.1.0ubuntu1) ...
+正在设置 libopenmpi2:amd64 (2.1.1-8) ...
+正在设置 libboost-coroutine-dev:amd64 (1.65.1.0ubuntu1) ...
+正在设置 libboost-thread-dev:amd64 (1.65.1.0ubuntu1) ...
+正在设置 libboost-mpi1.65.1 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libopenmpi-dev (2.1.1-8) ...
+update-alternatives: 使用 /usr/lib/x86_64-linux-gnu/openmpi/include 来在自动模式中提供 /usr/include/mpi (mpi)
+正在设置 libboost-wave1.65-dev:amd64 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libboost-timer-dev:amd64 (1.65.1.0ubuntu1) ...
+正在设置 libboost-filesystem-dev:amd64 (1.65.1.0ubuntu1) ...
+正在设置 openmpi-bin (2.1.1-8) ...
+update-alternatives: 使用 /usr/bin/mpirun.openmpi 来在自动模式中提供 /usr/bin/mpirun (mpirun)
+正在设置 mpi-default-dev (1.10) ...
+正在设置 libboost-log1.65-dev (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libboost-wave-dev:amd64 (1.65.1.0ubuntu1) ...
+正在设置 libboost-mpi1.65-dev (1.65.1+dfsg-0ubuntu5) ...
+正在设置 mpi-default-bin (1.10) ...
+正在设置 libboost-graph-parallel1.65.1 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libboost-graph-parallel1.65-dev (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libboost-log-dev (1.65.1.0ubuntu1) ...
+正在设置 libboost-graph-parallel-dev (1.65.1.0ubuntu1) ...
+正在设置 libboost-mpi-dev (1.65.1.0ubuntu1) ...
+正在设置 libboost-mpi-python1.65.1 (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libboost-mpi-python1.65-dev (1.65.1+dfsg-0ubuntu5) ...
+正在设置 libboost-mpi-python-dev (1.65.1.0ubuntu1) ...
+正在设置 libboost-all-dev (1.65.1.0ubuntu1) ...
+正在处理用于 libc-bin (2.27-3ubuntu1) 的触发器 ...
+正在处理用于 man-db (2.8.3-2ubuntu0.1) 的触发器 ...
+jachinlin@jachinlin-G3-3579:~$ cd folly
+jachinlin@jachinlin-G3-3579:~/folly$ mkdir _build && cd _build
+jachinlin@jachinlin-G3-3579:~/folly/_build$ cmake ..
+-- The CXX compiler identification is GNU 7.4.0
+-- The C compiler identification is GNU 7.4.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Found Threads: TRUE  
+-- Found Boost: /usr/include (found suitable version "1.65.1", minimum required is "1.51.0") found components:  context filesystem program_options regex system thread chrono date_time atomic 
+-- Found DOUBLE_CONVERSION: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so
+-- Found gflags from package config /usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-config.cmake
+-- Found glog: /usr/lib/x86_64-linux-gnu/libglog.so  
+-- Found libevent: /usr/lib/x86_64-linux-gnu/libevent.so
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1")  
+-- Looking for ASN1_TIME_diff
+-- Looking for ASN1_TIME_diff - found
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+-- Could NOT find BZip2 (missing: BZIP2_LIBRARIES BZIP2_INCLUDE_DIR) 
+-- Looking for lzma_auto_decoder in /usr/lib/x86_64-linux-gnu/liblzma.so
+-- Looking for lzma_auto_decoder in /usr/lib/x86_64-linux-gnu/liblzma.so - found
+-- Looking for lzma_easy_encoder in /usr/lib/x86_64-linux-gnu/liblzma.so
+-- Looking for lzma_easy_encoder in /usr/lib/x86_64-linux-gnu/liblzma.so - found
+-- Looking for lzma_lzma_preset in /usr/lib/x86_64-linux-gnu/liblzma.so
+-- Looking for lzma_lzma_preset in /usr/lib/x86_64-linux-gnu/liblzma.so - found
+-- Found LibLZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.2") 
+-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so  
+-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so
+-- Could NOT find ZSTD (missing: ZSTD_LIBRARY ZSTD_INCLUDE_DIR) 
+-- Found SNAPPY: /usr/lib/x86_64-linux-gnu/libsnappy.so  
+-- Could NOT find LIBDWARF (missing: LIBDWARF_LIBRARY LIBDWARF_INCLUDE_DIR) 
+-- Found LIBIBERTY: /usr/lib/x86_64-linux-gnu/libiberty.a  
+-- Could NOT find LIBAIO (missing: LIBAIO_LIBRARY LIBAIO_INCLUDE_DIR) 
+-- Could NOT find LIBSODIUM (missing: LIBSODIUM_LIBRARY LIBSODIUM_INCLUDE_DIR) 
+-- Looking for C++ include elf.h
+-- Looking for C++ include elf.h - found
+-- Looking for backtrace
+-- Looking for backtrace - found
+-- Setting FOLLY_USE_SYMBOLIZER: OFF
+-- Performing Test FOLLY_CPP_ATOMIC_BUILTIN
+-- Performing Test FOLLY_CPP_ATOMIC_BUILTIN - Success
+-- Looking for C++ include jemalloc/jemalloc.h
+-- Looking for C++ include jemalloc/jemalloc.h - found
+-- Performing Test COMPILER_HAS_UNKNOWN_WARNING_OPTION
+-- Performing Test COMPILER_HAS_UNKNOWN_WARNING_OPTION - Failed
+-- Performing Test COMPILER_HAS_W_SHADOW_LOCAL
+-- Performing Test COMPILER_HAS_W_SHADOW_LOCAL - Success
+-- Performing Test COMPILER_HAS_W_SHADOW_COMPATIBLE_LOCAL
+-- Performing Test COMPILER_HAS_W_SHADOW_COMPATIBLE_LOCAL - Success
+-- Performing Test COMPILER_HAS_W_NOEXCEPT_TYPE
+-- Performing Test COMPILER_HAS_W_NOEXCEPT_TYPE - Success
+-- Performing Test COMPILER_HAS_W_NULLABILITY_COMPLETENESS
+-- Performing Test COMPILER_HAS_W_NULLABILITY_COMPLETENESS - Failed
+-- Performing Test COMPILER_HAS_W_INCONSISTENT_MISSING_OVERRIDE
+-- Performing Test COMPILER_HAS_W_INCONSISTENT_MISSING_OVERRIDE - Failed
+-- Performing Test COMPILER_HAS_F_ALIGNED_NEW
+-- Performing Test COMPILER_HAS_F_ALIGNED_NEW - Success
+-- Performing Test COMPILER_HAS_F_OPENMP
+-- Performing Test COMPILER_HAS_F_OPENMP - Success
+-- Looking for pthread_atfork
+-- Looking for pthread_atfork - found
+-- Looking for memrchr
+-- Looking for memrchr - found
+-- Looking for accept4
+-- Looking for accept4 - found
+-- Looking for preadv
+-- Looking for preadv - found
+-- Looking for pwritev
+-- Looking for pwritev - found
+-- Looking for clock_gettime
+-- Looking for clock_gettime - found
+-- Looking for pipe2
+-- Looking for pipe2 - found
+-- Looking for sendmmsg
+-- Looking for sendmmsg - found
+-- Looking for recvmmsg
+-- Looking for recvmmsg - found
+-- Looking for malloc_usable_size
+-- Looking for malloc_usable_size - found
+-- Performing Test FOLLY_HAVE_IFUNC
+-- Performing Test FOLLY_HAVE_IFUNC - Success
+-- Performing Test FOLLY_HAVE_STD__IS_TRIVIALLY_COPYABLE
+-- Performing Test FOLLY_HAVE_STD__IS_TRIVIALLY_COPYABLE - Success
+-- Performing Test FOLLY_HAVE_UNALIGNED_ACCESS
+-- Performing Test FOLLY_HAVE_UNALIGNED_ACCESS - Success
+-- Performing Test FOLLY_HAVE_VLA
+-- Performing Test FOLLY_HAVE_VLA - Success
+-- Performing Test FOLLY_HAVE_WEAK_SYMBOLS
+-- Performing Test FOLLY_HAVE_WEAK_SYMBOLS - Success
+-- Performing Test FOLLY_HAVE_LINUX_VDSO
+-- Performing Test FOLLY_HAVE_LINUX_VDSO - Success
+-- Looking for C++ include sys/types.h
+-- Looking for C++ include sys/types.h - found
+-- Looking for C++ include stdint.h
+-- Looking for C++ include stdint.h - found
+-- Looking for C++ include stddef.h
+-- Looking for C++ include stddef.h - found
+-- Check size of __int128
+-- Check size of __int128 - done
+-- Performing Test HAVE_INT128_TRAITS
+-- Performing Test HAVE_INT128_TRAITS - Success
+-- Performing Test FOLLY_HAVE_WCHAR_SUPPORT
+-- Performing Test FOLLY_HAVE_WCHAR_SUPPORT - Success
+-- Performing Test FOLLY_HAVE_EXTRANDOM_SFMT19937
+-- Performing Test FOLLY_HAVE_EXTRANDOM_SFMT19937 - Success
+-- Performing Test FOLLY_USE_LIBCPP
+-- Performing Test FOLLY_USE_LIBCPP - Failed
+-- Performing Test FOLLY_USE_LIBSTDCPP
+-- Performing Test FOLLY_USE_LIBSTDCPP - Success
+-- Performing Test HAVE_VSNPRINTF_ERRORS
+-- Performing Test HAVE_VSNPRINTF_ERRORS - Success
+-- Performing Test GFLAGS_NAMESPACE_IS_GFLAGS
+-- Performing Test GFLAGS_NAMESPACE_IS_GFLAGS - Success
+-- Performing Test COMPILER_HAS_M_PCLMUL
+-- Performing Test COMPILER_HAS_M_PCLMUL - Success
+-- compiler has flag pclmul, setting compile flag for /home/jachinlin/folly/folly/hash/detail/ChecksumDetail.cpp;/home/jachinlin/folly/folly/hash/detail/Crc32CombineDetail.cpp;/home/jachinlin/folly/folly/hash/detail/Crc32cDetail.cpp
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jachinlin/folly/_build
+jachinlin@jachinlin-G3-3579:~/folly/_build$ make -j4
+Scanning dependencies of target folly_base
+[  1%] Building CXX object CMakeFiles/folly_base.dir/folly/CancellationToken.cpp.o
+[  1%] Building CXX object CMakeFiles/folly_base.dir/folly/ClockGettimeWrappers.cpp.o
+[  1%] Building CXX object CMakeFiles/folly_base.dir/folly/Conv.cpp.o
+[  2%] Building CXX object CMakeFiles/folly_base.dir/folly/Demangle.cpp.o
+[  2%] Building CXX object CMakeFiles/folly_base.dir/folly/ExceptionWrapper.cpp.o
+[  3%] Building CXX object CMakeFiles/folly_base.dir/folly/Executor.cpp.o
+[  3%] Building CXX object CMakeFiles/folly_base.dir/folly/File.cpp.o
+[  4%] Building CXX object CMakeFiles/folly_base.dir/folly/FileUtil.cpp.o
+[  4%] Building CXX object CMakeFiles/folly_base.dir/folly/Fingerprint.cpp.o
+[  4%] Building CXX object CMakeFiles/folly_base.dir/folly/Format.cpp.o
+[  5%] Building CXX object CMakeFiles/folly_base.dir/folly/GroupVarint.cpp.o
+[  5%] Building CXX object CMakeFiles/folly_base.dir/folly/IPAddress.cpp.o
+[  6%] Building CXX object CMakeFiles/folly_base.dir/folly/IPAddressV4.cpp.o
+[  6%] Building CXX object CMakeFiles/folly_base.dir/folly/IPAddressV6.cpp.o
+[  7%] Building CXX object CMakeFiles/folly_base.dir/folly/MacAddress.cpp.o
+[  7%] Building CXX object CMakeFiles/folly_base.dir/folly/MicroLock.cpp.o
+[  8%] Building CXX object CMakeFiles/folly_base.dir/folly/Random.cpp.o
+[  8%] Building CXX object CMakeFiles/folly_base.dir/folly/ScopeGuard.cpp.o
+[  8%] Building CXX object CMakeFiles/folly_base.dir/folly/SharedMutex.cpp.o
+[  9%] Building CXX object CMakeFiles/folly_base.dir/folly/Singleton.cpp.o
+[  9%] Building CXX object CMakeFiles/folly_base.dir/folly/SocketAddress.cpp.o
+[ 10%] Building CXX object CMakeFiles/folly_base.dir/folly/String.cpp.o
+[ 10%] Building CXX object CMakeFiles/folly_base.dir/folly/Subprocess.cpp.o
+[ 11%] Building CXX object CMakeFiles/folly_base.dir/folly/TimeoutQueue.cpp.o
+[ 11%] Building CXX object CMakeFiles/folly_base.dir/folly/Unicode.cpp.o
+[ 12%] Building CXX object CMakeFiles/folly_base.dir/folly/Uri.cpp.o
+[ 12%] Building CXX object CMakeFiles/folly_base.dir/folly/dynamic.cpp.o
+[ 12%] Building CXX object CMakeFiles/folly_base.dir/folly/json.cpp.o
+[ 13%] Building CXX object CMakeFiles/folly_base.dir/folly/json_patch.cpp.o
+[ 13%] Building CXX object CMakeFiles/folly_base.dir/folly/json_pointer.cpp.o
+[ 14%] Building CXX object CMakeFiles/folly_base.dir/folly/compression/Compression.cpp.o
+[ 14%] Building CXX object CMakeFiles/folly_base.dir/folly/compression/Counters.cpp.o
+[ 15%] Building CXX object CMakeFiles/folly_base.dir/folly/compression/Zlib.cpp.o
+[ 15%] Building CXX object CMakeFiles/folly_base.dir/folly/compression/Zstd.cpp.o
+[ 16%] Building CXX object CMakeFiles/folly_base.dir/folly/concurrency/CacheLocality.cpp.o
+[ 16%] Building CXX object CMakeFiles/folly_base.dir/folly/container/detail/F14Table.cpp.o
+[ 16%] Building CXX object CMakeFiles/folly_base.dir/folly/detail/AtFork.cpp.o
+[ 17%] Building CXX object CMakeFiles/folly_base.dir/folly/detail/Demangle.cpp.o
+[ 18%] Building CXX object CMakeFiles/folly_base.dir/folly/detail/IPAddress.cpp.o
+[ 18%] Building CXX object CMakeFiles/folly_base.dir/folly/detail/Futex.cpp.o
+[ 18%] Building CXX object CMakeFiles/folly_base.dir/folly/detail/MemoryIdler.cpp.o
+[ 19%] Building CXX object CMakeFiles/folly_base.dir/folly/detail/RangeCommon.cpp.o
+[ 19%] Building CXX object CMakeFiles/folly_base.dir/folly/detail/RangeSse42.cpp.o
+[ 20%] Building CXX object CMakeFiles/folly_base.dir/folly/detail/SingletonStackTrace.cpp.o
+[ 20%] Building CXX object CMakeFiles/folly_base.dir/folly/detail/SocketFastOpen.cpp.o
+[ 20%] Building CXX object CMakeFiles/folly_base.dir/folly/detail/Sse.cpp.o
+[ 21%] Building CXX object CMakeFiles/folly_base.dir/folly/detail/StaticSingletonManager.cpp.o
+[ 21%] Building CXX object CMakeFiles/folly_base.dir/folly/detail/ThreadLocalDetail.cpp.o
+[ 22%] Building CXX object CMakeFiles/folly_base.dir/folly/detail/UniqueInstance.cpp.o
+[ 22%] Building CXX object CMakeFiles/folly_base.dir/folly/executors/CPUThreadPoolExecutor.cpp.o
+[ 23%] Building CXX object CMakeFiles/folly_base.dir/folly/executors/Codel.cpp.o
+[ 23%] Building CXX object CMakeFiles/folly_base.dir/folly/executors/EDFThreadPoolExecutor.cpp.o
+[ 24%] Building CXX object CMakeFiles/folly_base.dir/folly/executors/ExecutorWithPriority.cpp.o
+[ 24%] Building CXX object CMakeFiles/folly_base.dir/folly/executors/GlobalExecutor.cpp.o
+[ 24%] Building CXX object CMakeFiles/folly_base.dir/folly/executors/GlobalThreadPoolList.cpp.o
+[ 25%] Building CXX object CMakeFiles/folly_base.dir/folly/executors/IOThreadPoolExecutor.cpp.o
+[ 25%] Building CXX object CMakeFiles/folly_base.dir/folly/executors/InlineExecutor.cpp.o
+[ 26%] Building CXX object CMakeFiles/folly_base.dir/folly/executors/ManualExecutor.cpp.o
+[ 26%] Building CXX object CMakeFiles/folly_base.dir/folly/executors/QueuedImmediateExecutor.cpp.o
+[ 27%] Building CXX object CMakeFiles/folly_base.dir/folly/executors/SerialExecutor.cpp.o
+[ 27%] Building CXX object CMakeFiles/folly_base.dir/folly/executors/ThreadPoolExecutor.cpp.o
+[ 28%] Building CXX object CMakeFiles/folly_base.dir/folly/executors/ThreadedExecutor.cpp.o
+[ 28%] Building CXX object CMakeFiles/folly_base.dir/folly/executors/TimedDrivableExecutor.cpp.o
+[ 28%] Building CXX object CMakeFiles/folly_base.dir/folly/executors/TimekeeperScheduledExecutor.cpp.o
+[ 29%] Building CXX object CMakeFiles/folly_base.dir/folly/experimental/AtomicReadMostlyMainPtr.cpp.o
+[ 29%] Building CXX object CMakeFiles/folly_base.dir/folly/experimental/DynamicParser.cpp.o
+[ 30%] Building CXX object CMakeFiles/folly_base.dir/folly/experimental/EnvUtil.cpp.o
+[ 30%] Building CXX object CMakeFiles/folly_base.dir/folly/experimental/FunctionScheduler.cpp.o
+[ 31%] Building CXX object CMakeFiles/folly_base.dir/folly/experimental/JSONSchema.cpp.o
+[ 31%] Building CXX object CMakeFiles/folly_base.dir/folly/experimental/JemallocHugePageAllocator.cpp.o
+[ 32%] Building CXX object CMakeFiles/folly_base.dir/folly/experimental/JemallocNodumpAllocator.cpp.o
+[ 32%] Building CXX object CMakeFiles/folly_base.dir/folly/experimental/NestedCommandLineApp.cpp.o
+[ 32%] Building CXX object CMakeFiles/folly_base.dir/folly/experimental/ProgramOptions.cpp.o
+[ 33%] Building CXX object CMakeFiles/folly_base.dir/folly/experimental/STTimerFDTimeoutManager.cpp.o
+[ 33%] Building CXX object CMakeFiles/folly_base.dir/folly/experimental/Select64.cpp.o
+[ 34%] Building CXX object CMakeFiles/folly_base.dir/folly/experimental/TestUtil.cpp.o
+[ 34%] Building CXX object CMakeFiles/folly_base.dir/folly/experimental/ThreadedRepeatingFunctionRunner.cpp.o
+[ 35%] Building CXX object CMakeFiles/folly_base.dir/folly/experimental/TimerFD.cpp.o
+[ 35%] Building CXX object CMakeFiles/folly_base.dir/folly/experimental/TimerFDTimeoutManager.cpp.o
+[ 36%] Building CXX object CMakeFiles/folly_base.dir/folly/experimental/bser/Dump.cpp.o
+[ 36%] Building CXX object CMakeFiles/folly_base.dir/folly/experimental/bser/Load.cpp.o
+[ 36%] Building CXX object CMakeFiles/folly_base.dir/folly/experimental/coro/Baton.cpp.o
+[ 37%] Building CXX object CMakeFiles/folly_base.dir/folly/experimental/coro/Mutex.cpp.o
+[ 37%] Building CXX object CMakeFiles/folly_base.dir/folly/experimental/coro/SharedMutex.cpp.o
+[ 38%] Building CXX object CMakeFiles/folly_base.dir/folly/experimental/io/FsUtil.cpp.o
+[ 38%] Building CXX object CMakeFiles/folly_base.dir/folly/experimental/io/HugePages.cpp.o
+[ 39%] Building CXX object CMakeFiles/folly_base.dir/folly/experimental/observer/detail/Core.cpp.o
+[ 39%] Building CXX object CMakeFiles/folly_base.dir/folly/experimental/observer/detail/ObserverManager.cpp.o
+[ 40%] Building CXX object CMakeFiles/folly_base.dir/folly/experimental/settings/Settings.cpp.o
+[ 40%] Building CXX object CMakeFiles/folly_base.dir/folly/external/farmhash/farmhash.cpp.o
+[ 40%] Building CXX object CMakeFiles/folly_base.dir/folly/fibers/Baton.cpp.o
+[ 41%] Building CXX object CMakeFiles/folly_base.dir/folly/fibers/Fiber.cpp.o
+[ 41%] Building CXX object CMakeFiles/folly_base.dir/folly/fibers/FiberManager.cpp.o
+[ 42%] Building CXX object CMakeFiles/folly_base.dir/folly/fibers/FiberManagerMap.cpp.o
+[ 42%] Building CXX object CMakeFiles/folly_base.dir/folly/fibers/GuardPageAllocator.cpp.o
+[ 43%] Building CXX object CMakeFiles/folly_base.dir/folly/fibers/Semaphore.cpp.o
+[ 43%] Building CXX object CMakeFiles/folly_base.dir/folly/fibers/SimpleLoopController.cpp.o
+[ 44%] Building CXX object CMakeFiles/folly_base.dir/folly/fibers/detail/AtomicBatchDispatcher.cpp.o
+[ 44%] Building CXX object CMakeFiles/folly_base.dir/folly/futures/Barrier.cpp.o
+[ 44%] Building CXX object CMakeFiles/folly_base.dir/folly/futures/Future.cpp.o
+[ 45%] Building CXX object CMakeFiles/folly_base.dir/folly/futures/ManualTimekeeper.cpp.o
+[ 45%] Building CXX object CMakeFiles/folly_base.dir/folly/futures/ThreadWheelTimekeeper.cpp.o
+[ 46%] Building CXX object CMakeFiles/folly_base.dir/folly/hash/Checksum.cpp.o
+[ 46%] Building CXX object CMakeFiles/folly_base.dir/folly/hash/SpookyHashV1.cpp.o
+[ 47%] Building CXX object CMakeFiles/folly_base.dir/folly/hash/SpookyHashV2.cpp.o
+[ 47%] Building CXX object CMakeFiles/folly_base.dir/folly/hash/detail/ChecksumDetail.cpp.o
+[ 48%] Building CXX object CMakeFiles/folly_base.dir/folly/hash/detail/Crc32CombineDetail.cpp.o
+[ 48%] Building CXX object CMakeFiles/folly_base.dir/folly/hash/detail/Crc32cDetail.cpp.o
+[ 48%] Building CXX object CMakeFiles/folly_base.dir/folly/init/Init.cpp.o
+[ 49%] Building CXX object CMakeFiles/folly_base.dir/folly/io/Cursor.cpp.o
+[ 49%] Building CXX object CMakeFiles/folly_base.dir/folly/io/GlobalShutdownSocketSet.cpp.o
+[ 50%] Building CXX object CMakeFiles/folly_base.dir/folly/io/IOBuf.cpp.o
+[ 50%] Building CXX object CMakeFiles/folly_base.dir/folly/io/IOBufQueue.cpp.o
+[ 51%] Building CXX object CMakeFiles/folly_base.dir/folly/io/RecordIO.cpp.o
+[ 51%] Building CXX object CMakeFiles/folly_base.dir/folly/io/ShutdownSocketSet.cpp.o
+[ 52%] Building CXX object CMakeFiles/folly_base.dir/folly/io/async/AsyncPipe.cpp.o
+[ 52%] Building CXX object CMakeFiles/folly_base.dir/folly/io/async/AsyncSSLSocket.cpp.o
+[ 52%] Building CXX object CMakeFiles/folly_base.dir/folly/io/async/AsyncServerSocket.cpp.o
+[ 53%] Building CXX object CMakeFiles/folly_base.dir/folly/io/async/AsyncSignalHandler.cpp.o
+[ 53%] Building CXX object CMakeFiles/folly_base.dir/folly/io/async/AsyncSocket.cpp.o
+[ 54%] Building CXX object CMakeFiles/folly_base.dir/folly/io/async/AsyncSocketException.cpp.o
+[ 54%] Building CXX object CMakeFiles/folly_base.dir/folly/io/async/AsyncTimeout.cpp.o
+[ 55%] Building CXX object CMakeFiles/folly_base.dir/folly/io/async/AsyncUDPSocket.cpp.o
+[ 55%] Building CXX object CMakeFiles/folly_base.dir/folly/io/async/EventBase.cpp.o
+[ 56%] Building CXX object CMakeFiles/folly_base.dir/folly/io/async/EventBaseLocal.cpp.o
+[ 56%] Building CXX object CMakeFiles/folly_base.dir/folly/io/async/EventBaseManager.cpp.o
+[ 56%] Building CXX object CMakeFiles/folly_base.dir/folly/io/async/EventBaseThread.cpp.o
+[ 57%] Building CXX object CMakeFiles/folly_base.dir/folly/io/async/EventHandler.cpp.o
+[ 57%] Building CXX object CMakeFiles/folly_base.dir/folly/io/async/HHWheelTimer.cpp.o
+[ 58%] Building CXX object CMakeFiles/folly_base.dir/folly/io/async/PasswordInFile.cpp.o
+[ 58%] Building CXX object CMakeFiles/folly_base.dir/folly/io/async/Request.cpp.o
+[ 59%] Building CXX object CMakeFiles/folly_base.dir/folly/io/async/SSLContext.cpp.o
+[ 59%] Building CXX object CMakeFiles/folly_base.dir/folly/io/async/SSLOptions.cpp.o
+[ 60%] Building CXX object CMakeFiles/folly_base.dir/folly/io/async/ScopedEventBaseThread.cpp.o
+[ 60%] Building CXX object CMakeFiles/folly_base.dir/folly/io/async/TimeoutManager.cpp.o
+[ 60%] Building CXX object CMakeFiles/folly_base.dir/folly/io/async/VirtualEventBase.cpp.o
+[ 61%] Building CXX object CMakeFiles/folly_base.dir/folly/io/async/ssl/OpenSSLUtils.cpp.o
+[ 61%] Building CXX object CMakeFiles/folly_base.dir/folly/io/async/ssl/SSLErrors.cpp.o
+[ 62%] Building CXX object CMakeFiles/folly_base.dir/folly/lang/Assume.cpp.o
+[ 62%] Building CXX object CMakeFiles/folly_base.dir/folly/lang/ColdClass.cpp.o
+[ 63%] Building CXX object CMakeFiles/folly_base.dir/folly/lang/SafeAssert.cpp.o
+[ 63%] Building CXX object CMakeFiles/folly_base.dir/folly/logging/AsyncFileWriter.cpp.o
+[ 64%] Building CXX object CMakeFiles/folly_base.dir/folly/logging/AsyncLogWriter.cpp.o
+[ 64%] Building CXX object CMakeFiles/folly_base.dir/folly/logging/CustomLogFormatter.cpp.o
+[ 64%] Building CXX object CMakeFiles/folly_base.dir/folly/logging/FileHandlerFactory.cpp.o
+[ 65%] Building CXX object CMakeFiles/folly_base.dir/folly/logging/FileWriterFactory.cpp.o
+[ 65%] Building CXX object CMakeFiles/folly_base.dir/folly/logging/GlogStyleFormatter.cpp.o
+[ 66%] Building CXX object CMakeFiles/folly_base.dir/folly/logging/ImmediateFileWriter.cpp.o
+[ 66%] Building CXX object CMakeFiles/folly_base.dir/folly/logging/Init.cpp.o
+[ 67%] Building CXX object CMakeFiles/folly_base.dir/folly/logging/InitWeak.cpp.o
+[ 67%] Building CXX object CMakeFiles/folly_base.dir/folly/logging/LogCategory.cpp.o
+[ 68%] Building CXX object CMakeFiles/folly_base.dir/folly/logging/LogCategoryConfig.cpp.o
+[ 68%] Building CXX object CMakeFiles/folly_base.dir/folly/logging/LogConfig.cpp.o
+[ 68%] Building CXX object CMakeFiles/folly_base.dir/folly/logging/LogConfigParser.cpp.o
+[ 69%] Building CXX object CMakeFiles/folly_base.dir/folly/logging/LogHandlerConfig.cpp.o
+[ 69%] Building CXX object CMakeFiles/folly_base.dir/folly/logging/LogLevel.cpp.o
+[ 70%] Building CXX object CMakeFiles/folly_base.dir/folly/logging/LogMessage.cpp.o
+[ 70%] Building CXX object CMakeFiles/folly_base.dir/folly/logging/LogName.cpp.o
+[ 71%] Building CXX object CMakeFiles/folly_base.dir/folly/logging/LogStream.cpp.o
+[ 71%] Building CXX object CMakeFiles/folly_base.dir/folly/logging/LogStreamProcessor.cpp.o
+[ 72%] Building CXX object CMakeFiles/folly_base.dir/folly/logging/Logger.cpp.o
+[ 72%] Building CXX object CMakeFiles/folly_base.dir/folly/logging/LoggerDB.cpp.o
+[ 72%] Building CXX object CMakeFiles/folly_base.dir/folly/logging/ObjectToString.cpp.o
+[ 73%] Building CXX object CMakeFiles/folly_base.dir/folly/logging/RateLimiter.cpp.o
+[ 73%] Building CXX object CMakeFiles/folly_base.dir/folly/logging/StandardLogHandler.cpp.o
+[ 74%] Building CXX object CMakeFiles/folly_base.dir/folly/logging/StandardLogHandlerFactory.cpp.o
+[ 74%] Building CXX object CMakeFiles/folly_base.dir/folly/logging/StreamHandlerFactory.cpp.o
+[ 75%] Building CXX object CMakeFiles/folly_base.dir/folly/logging/xlog.cpp.o
+[ 75%] Building CXX object CMakeFiles/folly_base.dir/folly/memory/MallctlHelper.cpp.o
+[ 76%] Building CXX object CMakeFiles/folly_base.dir/folly/memory/SanitizeLeak.cpp.o
+[ 76%] Building CXX object CMakeFiles/folly_base.dir/folly/memory/ThreadCachedArena.cpp.o
+[ 76%] Building CXX object CMakeFiles/folly_base.dir/folly/memory/detail/MallocImpl.cpp.o
+[ 77%] Building CXX object CMakeFiles/folly_base.dir/folly/net/NetOps.cpp.o
+[ 77%] Building CXX object CMakeFiles/folly_base.dir/folly/net/detail/SocketFileDescriptorMap.cpp.o
+[ 78%] Building CXX object CMakeFiles/folly_base.dir/folly/portability/Builtins.cpp.o
+[ 78%] Building CXX object CMakeFiles/folly_base.dir/folly/portability/Dirent.cpp.o
+[ 79%] Building CXX object CMakeFiles/folly_base.dir/folly/portability/Fcntl.cpp.o
+[ 79%] Building CXX object CMakeFiles/folly_base.dir/folly/portability/Libgen.cpp.o
+[ 80%] Building CXX object CMakeFiles/folly_base.dir/folly/portability/Malloc.cpp.o
+[ 80%] Building CXX object CMakeFiles/folly_base.dir/folly/portability/OpenSSL.cpp.o
+[ 80%] Building CXX object CMakeFiles/folly_base.dir/folly/portability/PThread.cpp.o
+[ 81%] Building CXX object CMakeFiles/folly_base.dir/folly/portability/Sched.cpp.o
+[ 81%] Building CXX object CMakeFiles/folly_base.dir/folly/portability/Semaphore.cpp.o
+[ 82%] Building CXX object CMakeFiles/folly_base.dir/folly/portability/Sockets.cpp.o
+[ 82%] Building CXX object CMakeFiles/folly_base.dir/folly/portability/Stdio.cpp.o
+[ 83%] Building CXX object CMakeFiles/folly_base.dir/folly/portability/Stdlib.cpp.o
+[ 83%] Building CXX object CMakeFiles/folly_base.dir/folly/portability/String.cpp.o
+[ 84%] Building CXX object CMakeFiles/folly_base.dir/folly/portability/SysFile.cpp.o
+[ 84%] Building CXX object CMakeFiles/folly_base.dir/folly/portability/SysMembarrier.cpp.o
+[ 84%] Building CXX object CMakeFiles/folly_base.dir/folly/portability/SysMman.cpp.o
+[ 85%] Building CXX object CMakeFiles/folly_base.dir/folly/portability/SysResource.cpp.o
+[ 85%] Building CXX object CMakeFiles/folly_base.dir/folly/portability/SysStat.cpp.o
+[ 86%] Building CXX object CMakeFiles/folly_base.dir/folly/portability/SysTime.cpp.o
+[ 86%] Building CXX object CMakeFiles/folly_base.dir/folly/portability/SysUio.cpp.o
+[ 87%] Building CXX object CMakeFiles/folly_base.dir/folly/portability/Time.cpp.o
+[ 87%] Building CXX object CMakeFiles/folly_base.dir/folly/portability/Unistd.cpp.o
+[ 88%] Building CXX object CMakeFiles/folly_base.dir/folly/ssl/Init.cpp.o
+[ 88%] Building CXX object CMakeFiles/folly_base.dir/folly/ssl/OpenSSLCertUtils.cpp.o
+[ 88%] Building CXX object CMakeFiles/folly_base.dir/folly/ssl/OpenSSLHash.cpp.o
+[ 89%] Building CXX object CMakeFiles/folly_base.dir/folly/ssl/detail/OpenSSLThreading.cpp.o
+[ 89%] Building CXX object CMakeFiles/folly_base.dir/folly/ssl/detail/SSLSessionImpl.cpp.o
+[ 90%] Building CXX object CMakeFiles/folly_base.dir/folly/stats/QuantileEstimator.cpp.o
+[ 90%] Building CXX object CMakeFiles/folly_base.dir/folly/stats/TDigest.cpp.o
+[ 91%] Building CXX object CMakeFiles/folly_base.dir/folly/stats/detail/DoubleRadixSort.cpp.o
+[ 91%] Building CXX object CMakeFiles/folly_base.dir/folly/synchronization/AsymmetricMemoryBarrier.cpp.o
+[ 92%] Building CXX object CMakeFiles/folly_base.dir/folly/synchronization/AtomicNotification.cpp.o
+[ 92%] Building CXX object CMakeFiles/folly_base.dir/folly/synchronization/DistributedMutex.cpp.o
+[ 92%] Building CXX object CMakeFiles/folly_base.dir/folly/synchronization/Hazptr.cpp.o
+[ 93%] Building CXX object CMakeFiles/folly_base.dir/folly/synchronization/ParkingLot.cpp.o
+[ 93%] Building CXX object CMakeFiles/folly_base.dir/folly/synchronization/Rcu.cpp.o
+[ 94%] Building CXX object CMakeFiles/folly_base.dir/folly/synchronization/SanitizeThread.cpp.o
+[ 94%] Building CXX object CMakeFiles/folly_base.dir/folly/synchronization/WaitOptions.cpp.o
+[ 95%] Building CXX object CMakeFiles/folly_base.dir/folly/synchronization/detail/Hardware.cpp.o
+[ 95%] Building CXX object CMakeFiles/folly_base.dir/folly/system/MemoryMapping.cpp.o
+[ 96%] Building CXX object CMakeFiles/folly_base.dir/folly/system/Shell.cpp.o
+[ 96%] Building CXX object CMakeFiles/folly_base.dir/folly/system/ThreadName.cpp.o
+[ 96%] Building CXX object CMakeFiles/folly_base.dir/folly/io/async/test/ScopedBoundPort.cpp.o
+[ 97%] Building CXX object CMakeFiles/folly_base.dir/folly/io/async/test/SocketPair.cpp.o
+[ 97%] Building CXX object CMakeFiles/folly_base.dir/folly/io/async/test/TimeUtil.cpp.o
+[ 97%] Built target folly_base
+Scanning dependencies of target folly
+[ 97%] Linking CXX static library libfolly.a
+[ 97%] Built target folly
+Scanning dependencies of target folly_test_util
+Scanning dependencies of target follybenchmark
+[ 97%] Building CXX object folly/CMakeFiles/follybenchmark.dir/Benchmark.cpp.o
+[ 98%] Building CXX object CMakeFiles/folly_test_util.dir/folly/test/DeterministicSchedule.cpp.o
+[ 98%] Building CXX object CMakeFiles/folly_test_util.dir/folly/test/JsonTestUtil.cpp.o
+[ 99%] Linking CXX static library libfolly_test_util.a
+[ 99%] Built target folly_test_util
+[100%] Linking CXX static library libfollybenchmark.a
+[100%] Built target follybenchmark
+jachinlin@jachinlin-G3-3579:~/folly/_build$ sudo make install
+[ 97%] Built target folly_base
+[ 97%] Built target folly
+[ 99%] Built target folly_test_util
+[100%] Built target follybenchmark
+Install the project...
+-- Install configuration: ""
+-- Installing: /usr/local/lib/libfolly.a
+-- Installing: /usr/local/lib/libfolly_test_util.a
+-- Installing: /usr/local/include/folly/AtomicBitSet.h
+-- Installing: /usr/local/include/folly/AtomicHashArray-inl.h
+-- Installing: /usr/local/include/folly/AtomicHashArray.h
+-- Installing: /usr/local/include/folly/AtomicHashMap-inl.h
+-- Installing: /usr/local/include/folly/AtomicHashMap.h
+-- Installing: /usr/local/include/folly/AtomicIntrusiveLinkedList.h
+-- Installing: /usr/local/include/folly/AtomicLinkedList.h
+-- Installing: /usr/local/include/folly/AtomicUnorderedMap.h
+-- Installing: /usr/local/include/folly/Benchmark.h
+-- Installing: /usr/local/include/folly/Bits.h
+-- Installing: /usr/local/include/folly/CPortability.h
+-- Installing: /usr/local/include/folly/CachelinePadded.h
+-- Installing: /usr/local/include/folly/CancellationToken-inl.h
+-- Installing: /usr/local/include/folly/CancellationToken.h
+-- Installing: /usr/local/include/folly/Chrono.h
+-- Installing: /usr/local/include/folly/ClockGettimeWrappers.h
+-- Installing: /usr/local/include/folly/ConcurrentSkipList-inl.h
+-- Installing: /usr/local/include/folly/ConcurrentSkipList.h
+-- Installing: /usr/local/include/folly/ConstexprMath.h
+-- Installing: /usr/local/include/folly/Conv.h
+-- Installing: /usr/local/include/folly/CppAttributes.h
+-- Installing: /usr/local/include/folly/CpuId.h
+-- Installing: /usr/local/include/folly/DefaultKeepAliveExecutor.h
+-- Installing: /usr/local/include/folly/Demangle.h
+-- Installing: /usr/local/include/folly/DiscriminatedPtr.h
+-- Installing: /usr/local/include/folly/DynamicConverter.h
+-- Installing: /usr/local/include/folly/Exception.h
+-- Installing: /usr/local/include/folly/ExceptionString.h
+-- Installing: /usr/local/include/folly/ExceptionWrapper-inl.h
+-- Installing: /usr/local/include/folly/ExceptionWrapper.h
+-- Installing: /usr/local/include/folly/Executor.h
+-- Installing: /usr/local/include/folly/Expected.h
+-- Installing: /usr/local/include/folly/FBString.h
+-- Installing: /usr/local/include/folly/FBVector.h
+-- Installing: /usr/local/include/folly/File.h
+-- Installing: /usr/local/include/folly/FileUtil.h
+-- Installing: /usr/local/include/folly/Fingerprint.h
+-- Installing: /usr/local/include/folly/FixedString.h
+-- Installing: /usr/local/include/folly/Format-inl.h
+-- Installing: /usr/local/include/folly/Format.h
+-- Installing: /usr/local/include/folly/FormatArg.h
+-- Installing: /usr/local/include/folly/FormatTraits.h
+-- Installing: /usr/local/include/folly/Function.h
+-- Installing: /usr/local/include/folly/GLog.h
+-- Installing: /usr/local/include/folly/GroupVarint.h
+-- Installing: /usr/local/include/folly/Hash.h
+-- Installing: /usr/local/include/folly/IPAddress.h
+-- Installing: /usr/local/include/folly/IPAddressException.h
+-- Installing: /usr/local/include/folly/IPAddressV4.h
+-- Installing: /usr/local/include/folly/IPAddressV6.h
+-- Installing: /usr/local/include/folly/Indestructible.h
+-- Installing: /usr/local/include/folly/IndexedMemPool.h
+-- Installing: /usr/local/include/folly/IntrusiveList.h
+-- Installing: /usr/local/include/folly/Lazy.h
+-- Installing: /usr/local/include/folly/Likely.h
+-- Installing: /usr/local/include/folly/LockTraits.h
+-- Installing: /usr/local/include/folly/MPMCPipeline.h
+-- Installing: /usr/local/include/folly/MPMCQueue.h
+-- Installing: /usr/local/include/folly/MacAddress.h
+-- Installing: /usr/local/include/folly/MapUtil.h
+-- Installing: /usr/local/include/folly/Math.h
+-- Installing: /usr/local/include/folly/Memory.h
+-- Installing: /usr/local/include/folly/MicroLock.h
+-- Installing: /usr/local/include/folly/MicroSpinLock.h
+-- Installing: /usr/local/include/folly/MoveWrapper.h
+-- Installing: /usr/local/include/folly/Optional.h
+-- Installing: /usr/local/include/folly/Overload.h
+-- Installing: /usr/local/include/folly/PackedSyncPtr.h
+-- Installing: /usr/local/include/folly/Padded.h
+-- Installing: /usr/local/include/folly/Poly-inl.h
+-- Installing: /usr/local/include/folly/Poly.h
+-- Installing: /usr/local/include/folly/PolyException.h
+-- Installing: /usr/local/include/folly/Portability.h
+-- Installing: /usr/local/include/folly/Preprocessor.h
+-- Installing: /usr/local/include/folly/PriorityMPMCQueue.h
+-- Installing: /usr/local/include/folly/ProducerConsumerQueue.h
+-- Installing: /usr/local/include/folly/RWSpinLock.h
+-- Installing: /usr/local/include/folly/Random-inl.h
+-- Installing: /usr/local/include/folly/Random.h
+-- Installing: /usr/local/include/folly/Range.h
+-- Installing: /usr/local/include/folly/Replaceable.h
+-- Installing: /usr/local/include/folly/ScopeGuard.h
+-- Installing: /usr/local/include/folly/SharedMutex.h
+-- Installing: /usr/local/include/folly/Singleton-inl.h
+-- Installing: /usr/local/include/folly/Singleton.h
+-- Installing: /usr/local/include/folly/SingletonThreadLocal.h
+-- Installing: /usr/local/include/folly/SocketAddress.h
+-- Installing: /usr/local/include/folly/SpinLock.h
+-- Installing: /usr/local/include/folly/String-inl.h
+-- Installing: /usr/local/include/folly/String.h
+-- Installing: /usr/local/include/folly/Subprocess.h
+-- Installing: /usr/local/include/folly/Synchronized.h
+-- Installing: /usr/local/include/folly/SynchronizedPtr.h
+-- Installing: /usr/local/include/folly/ThreadCachedInt.h
+-- Installing: /usr/local/include/folly/ThreadLocal.h
+-- Installing: /usr/local/include/folly/TimeoutQueue.h
+-- Installing: /usr/local/include/folly/TokenBucket.h
+-- Installing: /usr/local/include/folly/Traits.h
+-- Installing: /usr/local/include/folly/Try-inl.h
+-- Installing: /usr/local/include/folly/Try.h
+-- Installing: /usr/local/include/folly/UTF8String.h
+-- Installing: /usr/local/include/folly/Unicode.h
+-- Installing: /usr/local/include/folly/Unit.h
+-- Installing: /usr/local/include/folly/Uri-inl.h
+-- Installing: /usr/local/include/folly/Uri.h
+-- Installing: /usr/local/include/folly/Utility.h
+-- Installing: /usr/local/include/folly/Varint.h
+-- Installing: /usr/local/include/folly/VirtualExecutor.h
+-- Installing: /usr/local/include/folly/dynamic-inl.h
+-- Installing: /usr/local/include/folly/dynamic.h
+-- Installing: /usr/local/include/folly/json.h
+-- Installing: /usr/local/include/folly/json_patch.h
+-- Installing: /usr/local/include/folly/json_pointer.h
+-- Installing: /usr/local/include/folly/small_vector.h
+-- Installing: /usr/local/include/folly/sorted_vector_types.h
+-- Installing: /usr/local/include/folly/stop_watch.h
+-- Installing: /usr/local/include/folly/chrono/Conv.h
+-- Installing: /usr/local/include/folly/chrono/Hardware.h
+-- Installing: /usr/local/include/folly/compression/Compression.h
+-- Installing: /usr/local/include/folly/compression/Counters.h
+-- Installing: /usr/local/include/folly/compression/Utils.h
+-- Installing: /usr/local/include/folly/compression/Zlib.h
+-- Installing: /usr/local/include/folly/compression/Zstd.h
+-- Installing: /usr/local/include/folly/concurrency/AtomicSharedPtr.h
+-- Installing: /usr/local/include/folly/concurrency/CacheLocality.h
+-- Installing: /usr/local/include/folly/concurrency/ConcurrentHashMap.h
+-- Installing: /usr/local/include/folly/concurrency/CoreCachedSharedPtr.h
+-- Installing: /usr/local/include/folly/concurrency/DynamicBoundedQueue.h
+-- Installing: /usr/local/include/folly/concurrency/PriorityUnboundedQueueSet.h
+-- Installing: /usr/local/include/folly/concurrency/UnboundedQueue.h
+-- Installing: /usr/local/include/folly/concurrency/detail/AtomicSharedPtr-detail.h
+-- Installing: /usr/local/include/folly/concurrency/detail/ConcurrentHashMap-detail.h
+-- Installing: /usr/local/include/folly/container/Access.h
+-- Installing: /usr/local/include/folly/container/Array.h
+-- Installing: /usr/local/include/folly/container/BitIterator.h
+-- Installing: /usr/local/include/folly/container/Enumerate.h
+-- Installing: /usr/local/include/folly/container/EvictingCacheMap.h
+-- Installing: /usr/local/include/folly/container/F14Map-fwd.h
+-- Installing: /usr/local/include/folly/container/F14Map.h
+-- Installing: /usr/local/include/folly/container/F14Set-fwd.h
+-- Installing: /usr/local/include/folly/container/F14Set.h
+-- Installing: /usr/local/include/folly/container/Foreach-inl.h
+-- Installing: /usr/local/include/folly/container/Foreach.h
+-- Installing: /usr/local/include/folly/container/HeterogeneousAccess-fwd.h
+-- Installing: /usr/local/include/folly/container/HeterogeneousAccess.h
+-- Installing: /usr/local/include/folly/container/Iterator.h
+-- Installing: /usr/local/include/folly/container/Merge.h
+-- Installing: /usr/local/include/folly/container/SparseByteSet.h
+-- Installing: /usr/local/include/folly/container/detail/BitIteratorDetail.h
+-- Installing: /usr/local/include/folly/container/detail/F14Defaults.h
+-- Installing: /usr/local/include/folly/container/detail/F14IntrinsicsAvailability.h
+-- Installing: /usr/local/include/folly/container/detail/F14Mask.h
+-- Installing: /usr/local/include/folly/container/detail/F14Policy.h
+-- Installing: /usr/local/include/folly/container/detail/F14Table.h
+-- Installing: /usr/local/include/folly/container/detail/Util.h
+-- Installing: /usr/local/include/folly/detail/AtFork.h
+-- Installing: /usr/local/include/folly/detail/AtomicHashUtils.h
+-- Installing: /usr/local/include/folly/detail/AtomicUnorderedMapUtils.h
+-- Installing: /usr/local/include/folly/detail/Demangle.h
+-- Installing: /usr/local/include/folly/detail/DiscriminatedPtrDetail.h
+-- Installing: /usr/local/include/folly/detail/FileUtilDetail.h
+-- Installing: /usr/local/include/folly/detail/FingerprintPolynomial.h
+-- Installing: /usr/local/include/folly/detail/Futex-inl.h
+-- Installing: /usr/local/include/folly/detail/Futex.h
+-- Installing: /usr/local/include/folly/detail/GroupVarintDetail.h
+-- Installing: /usr/local/include/folly/detail/IPAddress.h
+-- Installing: /usr/local/include/folly/detail/IPAddressSource.h
+-- Installing: /usr/local/include/folly/detail/Iterators.h
+-- Installing: /usr/local/include/folly/detail/MPMCPipelineDetail.h
+-- Installing: /usr/local/include/folly/detail/MemoryIdler.h
+-- Installing: /usr/local/include/folly/detail/PolyDetail.h
+-- Installing: /usr/local/include/folly/detail/RangeCommon.h
+-- Installing: /usr/local/include/folly/detail/RangeSse42.h
+-- Installing: /usr/local/include/folly/detail/Singleton.h
+-- Installing: /usr/local/include/folly/detail/SingletonStackTrace.h
+-- Installing: /usr/local/include/folly/detail/SlowFingerprint.h
+-- Installing: /usr/local/include/folly/detail/SocketFastOpen.h
+-- Installing: /usr/local/include/folly/detail/Sse.h
+-- Installing: /usr/local/include/folly/detail/StaticSingletonManager.h
+-- Installing: /usr/local/include/folly/detail/ThreadLocalDetail.h
+-- Installing: /usr/local/include/folly/detail/TurnSequencer.h
+-- Installing: /usr/local/include/folly/detail/TypeList.h
+-- Installing: /usr/local/include/folly/detail/UniqueInstance.h
+-- Installing: /usr/local/include/folly/executors/Async.h
+-- Installing: /usr/local/include/folly/executors/CPUThreadPoolExecutor.h
+-- Installing: /usr/local/include/folly/executors/Codel.h
+-- Installing: /usr/local/include/folly/executors/DrivableExecutor.h
+-- Installing: /usr/local/include/folly/executors/EDFThreadPoolExecutor.h
+-- Installing: /usr/local/include/folly/executors/ExecutorWithPriority.h
+-- Installing: /usr/local/include/folly/executors/FiberIOExecutor.h
+-- Installing: /usr/local/include/folly/executors/FutureExecutor.h
+-- Installing: /usr/local/include/folly/executors/GlobalExecutor.h
+-- Installing: /usr/local/include/folly/executors/GlobalThreadPoolList.h
+-- Installing: /usr/local/include/folly/executors/IOExecutor.h
+-- Installing: /usr/local/include/folly/executors/IOObjectCache.h
+-- Installing: /usr/local/include/folly/executors/IOThreadPoolExecutor.h
+-- Installing: /usr/local/include/folly/executors/InlineExecutor.h
+-- Installing: /usr/local/include/folly/executors/ManualExecutor.h
+-- Installing: /usr/local/include/folly/executors/QueuedImmediateExecutor.h
+-- Installing: /usr/local/include/folly/executors/ScheduledExecutor.h
+-- Installing: /usr/local/include/folly/executors/SequencedExecutor.h
+-- Installing: /usr/local/include/folly/executors/SerialExecutor.h
+-- Installing: /usr/local/include/folly/executors/SoftRealTimeExecutor.h
+-- Installing: /usr/local/include/folly/executors/ThreadPoolExecutor.h
+-- Installing: /usr/local/include/folly/executors/ThreadedExecutor.h
+-- Installing: /usr/local/include/folly/executors/TimedDrivableExecutor.h
+-- Installing: /usr/local/include/folly/executors/TimekeeperScheduledExecutor.h
+-- Installing: /usr/local/include/folly/executors/task_queue/BlockingQueue.h
+-- Installing: /usr/local/include/folly/executors/task_queue/LifoSemMPMCQueue.h
+-- Installing: /usr/local/include/folly/executors/task_queue/PriorityLifoSemMPMCQueue.h
+-- Installing: /usr/local/include/folly/executors/task_queue/PriorityUnboundedBlockingQueue.h
+-- Installing: /usr/local/include/folly/executors/task_queue/UnboundedBlockingQueue.h
+-- Installing: /usr/local/include/folly/executors/thread_factory/InitThreadFactory.h
+-- Installing: /usr/local/include/folly/executors/thread_factory/NamedThreadFactory.h
+-- Installing: /usr/local/include/folly/executors/thread_factory/PriorityThreadFactory.h
+-- Installing: /usr/local/include/folly/executors/thread_factory/ThreadFactory.h
+-- Installing: /usr/local/include/folly/experimental/AtomicReadMostlyMainPtr.h
+-- Installing: /usr/local/include/folly/experimental/AutoTimer.h
+-- Installing: /usr/local/include/folly/experimental/BitVectorCoding.h
+-- Installing: /usr/local/include/folly/experimental/Bits.h
+-- Installing: /usr/local/include/folly/experimental/CodingDetail.h
+-- Installing: /usr/local/include/folly/experimental/DynamicParser-inl.h
+-- Installing: /usr/local/include/folly/experimental/DynamicParser.h
+-- Installing: /usr/local/include/folly/experimental/EliasFanoCoding.h
+-- Installing: /usr/local/include/folly/experimental/EnvUtil.h
+-- Installing: /usr/local/include/folly/experimental/EventCount.h
+-- Installing: /usr/local/include/folly/experimental/ExecutionObserver.h
+-- Installing: /usr/local/include/folly/experimental/FlatCombiningPriorityQueue.h
+-- Installing: /usr/local/include/folly/experimental/FunctionScheduler.h
+-- Installing: /usr/local/include/folly/experimental/FutureDAG.h
+-- Installing: /usr/local/include/folly/experimental/Instructions.h
+-- Installing: /usr/local/include/folly/experimental/JSONSchema.h
+-- Installing: /usr/local/include/folly/experimental/JemallocHugePageAllocator.h
+-- Installing: /usr/local/include/folly/experimental/JemallocNodumpAllocator.h
+-- Installing: /usr/local/include/folly/experimental/LockFreeRingBuffer.h
+-- Installing: /usr/local/include/folly/experimental/NestedCommandLineApp.h
+-- Installing: /usr/local/include/folly/experimental/ProgramOptions.h
+-- Installing: /usr/local/include/folly/experimental/ReadMostlySharedPtr.h
+-- Installing: /usr/local/include/folly/experimental/RelaxedConcurrentPriorityQueue.h
+-- Installing: /usr/local/include/folly/experimental/STTimerFDTimeoutManager.h
+-- Installing: /usr/local/include/folly/experimental/Select64.h
+-- Installing: /usr/local/include/folly/experimental/SingletonRelaxedCounter.h
+-- Installing: /usr/local/include/folly/experimental/StampedPtr.h
+-- Installing: /usr/local/include/folly/experimental/StringKeyedCommon.h
+-- Installing: /usr/local/include/folly/experimental/StringKeyedMap.h
+-- Installing: /usr/local/include/folly/experimental/StringKeyedSet.h
+-- Installing: /usr/local/include/folly/experimental/StringKeyedUnorderedMap.h
+-- Installing: /usr/local/include/folly/experimental/StringKeyedUnorderedSet.h
+-- Installing: /usr/local/include/folly/experimental/TLRefCount.h
+-- Installing: /usr/local/include/folly/experimental/TestUtil.h
+-- Installing: /usr/local/include/folly/experimental/ThreadedRepeatingFunctionRunner.h
+-- Installing: /usr/local/include/folly/experimental/TimerFD.h
+-- Installing: /usr/local/include/folly/experimental/TimerFDTimeoutManager.h
+-- Installing: /usr/local/include/folly/experimental/TupleOps.h
+-- Installing: /usr/local/include/folly/experimental/bser/Bser.h
+-- Installing: /usr/local/include/folly/experimental/coro/AsyncGenerator.h
+-- Installing: /usr/local/include/folly/experimental/coro/Baton.h
+-- Installing: /usr/local/include/folly/experimental/coro/BlockingWait.h
+-- Installing: /usr/local/include/folly/experimental/coro/Collect-inl.h
+-- Installing: /usr/local/include/folly/experimental/coro/Collect.h
+-- Installing: /usr/local/include/folly/experimental/coro/CurrentExecutor.h
+-- Installing: /usr/local/include/folly/experimental/coro/Dematerialize-inl.h
+-- Installing: /usr/local/include/folly/experimental/coro/Dematerialize.h
+-- Installing: /usr/local/include/folly/experimental/coro/Generator.h
+-- Installing: /usr/local/include/folly/experimental/coro/Materialize-inl.h
+-- Installing: /usr/local/include/folly/experimental/coro/Materialize.h
+-- Installing: /usr/local/include/folly/experimental/coro/Merge-inl.h
+-- Installing: /usr/local/include/folly/experimental/coro/Merge.h
+-- Installing: /usr/local/include/folly/experimental/coro/Multiplex-inl.h
+-- Installing: /usr/local/include/folly/experimental/coro/Multiplex.h
+-- Installing: /usr/local/include/folly/experimental/coro/Mutex.h
+-- Installing: /usr/local/include/folly/experimental/coro/SharedLock.h
+-- Installing: /usr/local/include/folly/experimental/coro/SharedMutex.h
+-- Installing: /usr/local/include/folly/experimental/coro/Sleep-inl.h
+-- Installing: /usr/local/include/folly/experimental/coro/Sleep.h
+-- Installing: /usr/local/include/folly/experimental/coro/Task.h
+-- Installing: /usr/local/include/folly/experimental/coro/TimedWait.h
+-- Installing: /usr/local/include/folly/experimental/coro/Traits.h
+-- Installing: /usr/local/include/folly/experimental/coro/Transform-inl.h
+-- Installing: /usr/local/include/folly/experimental/coro/Transform.h
+-- Installing: /usr/local/include/folly/experimental/coro/Utils.h
+-- Installing: /usr/local/include/folly/experimental/coro/ViaIfAsync.h
+-- Installing: /usr/local/include/folly/experimental/coro/Wait.h
+-- Installing: /usr/local/include/folly/experimental/coro/WithCancellation.h
+-- Installing: /usr/local/include/folly/experimental/coro/detail/Barrier.h
+-- Installing: /usr/local/include/folly/experimental/coro/detail/BarrierTask.h
+-- Installing: /usr/local/include/folly/experimental/coro/detail/Helpers.h
+-- Installing: /usr/local/include/folly/experimental/coro/detail/InlineTask.h
+-- Installing: /usr/local/include/folly/experimental/coro/detail/ManualLifetime.h
+-- Installing: /usr/local/include/folly/experimental/coro/detail/Traits.h
+-- Installing: /usr/local/include/folly/experimental/flat_combining/FlatCombining.h
+-- Installing: /usr/local/include/folly/experimental/io/FsUtil.h
+-- Installing: /usr/local/include/folly/experimental/io/HugePages.h
+-- Installing: /usr/local/include/folly/experimental/observer/Observable-inl.h
+-- Installing: /usr/local/include/folly/experimental/observer/Observable.h
+-- Installing: /usr/local/include/folly/experimental/observer/Observer-inl.h
+-- Installing: /usr/local/include/folly/experimental/observer/Observer-pre.h
+-- Installing: /usr/local/include/folly/experimental/observer/Observer.h
+-- Installing: /usr/local/include/folly/experimental/observer/SimpleObservable-inl.h
+-- Installing: /usr/local/include/folly/experimental/observer/SimpleObservable.h
+-- Installing: /usr/local/include/folly/experimental/observer/detail/Core.h
+-- Installing: /usr/local/include/folly/experimental/observer/detail/GraphCycleDetector.h
+-- Installing: /usr/local/include/folly/experimental/observer/detail/ObserverManager.h
+-- Installing: /usr/local/include/folly/experimental/settings/Settings.h
+-- Installing: /usr/local/include/folly/experimental/settings/SettingsMetadata.h
+-- Installing: /usr/local/include/folly/experimental/settings/detail/SettingsImpl.h
+-- Installing: /usr/local/include/folly/external/farmhash/farmhash.h
+-- Installing: /usr/local/include/folly/fibers/AddTasks-inl.h
+-- Installing: /usr/local/include/folly/fibers/AddTasks.h
+-- Installing: /usr/local/include/folly/fibers/AtomicBatchDispatcher-inl.h
+-- Installing: /usr/local/include/folly/fibers/AtomicBatchDispatcher.h
+-- Installing: /usr/local/include/folly/fibers/BatchDispatcher.h
+-- Installing: /usr/local/include/folly/fibers/Baton-inl.h
+-- Installing: /usr/local/include/folly/fibers/Baton.h
+-- Installing: /usr/local/include/folly/fibers/BoostContextCompatibility.h
+-- Installing: /usr/local/include/folly/fibers/CallOnce.h
+-- Installing: /usr/local/include/folly/fibers/EventBaseLoopController-inl.h
+-- Installing: /usr/local/include/folly/fibers/EventBaseLoopController.h
+-- Installing: /usr/local/include/folly/fibers/ExecutorLoopController-inl.h
+-- Installing: /usr/local/include/folly/fibers/ExecutorLoopController.h
+-- Installing: /usr/local/include/folly/fibers/Fiber-inl.h
+-- Installing: /usr/local/include/folly/fibers/Fiber.h
+-- Installing: /usr/local/include/folly/fibers/FiberManager-inl.h
+-- Installing: /usr/local/include/folly/fibers/FiberManager.h
+-- Installing: /usr/local/include/folly/fibers/FiberManagerInternal-inl.h
+-- Installing: /usr/local/include/folly/fibers/FiberManagerInternal.h
+-- Installing: /usr/local/include/folly/fibers/FiberManagerMap.h
+-- Installing: /usr/local/include/folly/fibers/ForEach-inl.h
+-- Installing: /usr/local/include/folly/fibers/ForEach.h
+-- Installing: /usr/local/include/folly/fibers/GenericBaton.h
+-- Installing: /usr/local/include/folly/fibers/GuardPageAllocator.h
+-- Installing: /usr/local/include/folly/fibers/LoopController.h
+-- Installing: /usr/local/include/folly/fibers/Promise-inl.h
+-- Installing: /usr/local/include/folly/fibers/Promise.h
+-- Installing: /usr/local/include/folly/fibers/Semaphore.h
+-- Installing: /usr/local/include/folly/fibers/SimpleLoopController.h
+-- Installing: /usr/local/include/folly/fibers/TimedMutex-inl.h
+-- Installing: /usr/local/include/folly/fibers/TimedMutex.h
+-- Installing: /usr/local/include/folly/fibers/WhenN-inl.h
+-- Installing: /usr/local/include/folly/fibers/WhenN.h
+-- Installing: /usr/local/include/folly/fibers/detail/AtomicBatchDispatcher.h
+-- Installing: /usr/local/include/folly/fibers/traits.h
+-- Installing: /usr/local/include/folly/functional/ApplyTuple.h
+-- Installing: /usr/local/include/folly/functional/Invoke.h
+-- Installing: /usr/local/include/folly/functional/Partial.h
+-- Installing: /usr/local/include/folly/futures/Barrier.h
+-- Installing: /usr/local/include/folly/futures/Future-inl.h
+-- Installing: /usr/local/include/folly/futures/Future-pre.h
+-- Installing: /usr/local/include/folly/futures/Future.h
+-- Installing: /usr/local/include/folly/futures/FutureSplitter.h
+-- Installing: /usr/local/include/folly/futures/ManualTimekeeper.h
+-- Installing: /usr/local/include/folly/futures/Portability.h
+-- Installing: /usr/local/include/folly/futures/Promise-inl.h
+-- Installing: /usr/local/include/folly/futures/Promise.h
+-- Installing: /usr/local/include/folly/futures/Retrying.h
+-- Installing: /usr/local/include/folly/futures/SharedPromise-inl.h
+-- Installing: /usr/local/include/folly/futures/SharedPromise.h
+-- Installing: /usr/local/include/folly/futures/ThreadWheelTimekeeper.h
+-- Installing: /usr/local/include/folly/futures/detail/Core.h
+-- Installing: /usr/local/include/folly/futures/detail/Types.h
+-- Installing: /usr/local/include/folly/gen/Base-inl.h
+-- Installing: /usr/local/include/folly/gen/Base.h
+-- Installing: /usr/local/include/folly/gen/Combine-inl.h
+-- Installing: /usr/local/include/folly/gen/Combine.h
+-- Installing: /usr/local/include/folly/gen/Core-inl.h
+-- Installing: /usr/local/include/folly/gen/Core.h
+-- Installing: /usr/local/include/folly/gen/File-inl.h
+-- Installing: /usr/local/include/folly/gen/File.h
+-- Installing: /usr/local/include/folly/gen/IStream.h
+-- Installing: /usr/local/include/folly/gen/Parallel-inl.h
+-- Installing: /usr/local/include/folly/gen/Parallel.h
+-- Installing: /usr/local/include/folly/gen/ParallelMap-inl.h
+-- Installing: /usr/local/include/folly/gen/ParallelMap.h
+-- Installing: /usr/local/include/folly/gen/String-inl.h
+-- Installing: /usr/local/include/folly/gen/String.h
+-- Installing: /usr/local/include/folly/hash/Checksum.h
+-- Installing: /usr/local/include/folly/hash/FarmHash.h
+-- Installing: /usr/local/include/folly/hash/Hash.h
+-- Installing: /usr/local/include/folly/hash/SpookyHashV1.h
+-- Installing: /usr/local/include/folly/hash/SpookyHashV2.h
+-- Installing: /usr/local/include/folly/hash/detail/ChecksumDetail.h
+-- Installing: /usr/local/include/folly/init/Init.h
+-- Installing: /usr/local/include/folly/io/Cursor-inl.h
+-- Installing: /usr/local/include/folly/io/Cursor.h
+-- Installing: /usr/local/include/folly/io/GlobalShutdownSocketSet.h
+-- Installing: /usr/local/include/folly/io/IOBuf.h
+-- Installing: /usr/local/include/folly/io/IOBufQueue.h
+-- Installing: /usr/local/include/folly/io/RecordIO-inl.h
+-- Installing: /usr/local/include/folly/io/RecordIO.h
+-- Installing: /usr/local/include/folly/io/ShutdownSocketSet.h
+-- Installing: /usr/local/include/folly/io/TypedIOBuf.h
+-- Installing: /usr/local/include/folly/io/async/AsyncPipe.h
+-- Installing: /usr/local/include/folly/io/async/AsyncSSLSocket.h
+-- Installing: /usr/local/include/folly/io/async/AsyncServerSocket.h
+-- Installing: /usr/local/include/folly/io/async/AsyncSignalHandler.h
+-- Installing: /usr/local/include/folly/io/async/AsyncSocket.h
+-- Installing: /usr/local/include/folly/io/async/AsyncSocketBase.h
+-- Installing: /usr/local/include/folly/io/async/AsyncSocketException.h
+-- Installing: /usr/local/include/folly/io/async/AsyncTimeout.h
+-- Installing: /usr/local/include/folly/io/async/AsyncTransport.h
+-- Installing: /usr/local/include/folly/io/async/AsyncTransportCertificate.h
+-- Installing: /usr/local/include/folly/io/async/AsyncUDPServerSocket.h
+-- Installing: /usr/local/include/folly/io/async/AsyncUDPSocket.h
+-- Installing: /usr/local/include/folly/io/async/DecoratedAsyncTransportWrapper.h
+-- Installing: /usr/local/include/folly/io/async/DelayedDestruction.h
+-- Installing: /usr/local/include/folly/io/async/DelayedDestructionBase.h
+-- Installing: /usr/local/include/folly/io/async/DestructorCheck.h
+-- Installing: /usr/local/include/folly/io/async/EventBase.h
+-- Installing: /usr/local/include/folly/io/async/EventBaseLocal.h
+-- Installing: /usr/local/include/folly/io/async/EventBaseManager.h
+-- Installing: /usr/local/include/folly/io/async/EventBaseThread.h
+-- Installing: /usr/local/include/folly/io/async/EventFDWrapper.h
+-- Installing: /usr/local/include/folly/io/async/EventHandler.h
+-- Installing: /usr/local/include/folly/io/async/EventUtil.h
+-- Installing: /usr/local/include/folly/io/async/HHWheelTimer-fwd.h
+-- Installing: /usr/local/include/folly/io/async/HHWheelTimer.h
+-- Installing: /usr/local/include/folly/io/async/NotificationQueue.h
+-- Installing: /usr/local/include/folly/io/async/PasswordInFile.h
+-- Installing: /usr/local/include/folly/io/async/Request.h
+-- Installing: /usr/local/include/folly/io/async/SSLContext.h
+-- Installing: /usr/local/include/folly/io/async/SSLOptions.h
+-- Installing: /usr/local/include/folly/io/async/ScopedEventBaseThread.h
+-- Installing: /usr/local/include/folly/io/async/TimeoutManager.h
+-- Installing: /usr/local/include/folly/io/async/VirtualEventBase.h
+-- Installing: /usr/local/include/folly/io/async/WriteChainAsyncTransportWrapper.h
+-- Installing: /usr/local/include/folly/io/async/ssl/BasicTransportCertificate.h
+-- Installing: /usr/local/include/folly/io/async/ssl/OpenSSLUtils.h
+-- Installing: /usr/local/include/folly/io/async/ssl/SSLErrors.h
+-- Installing: /usr/local/include/folly/io/async/ssl/TLSDefinitions.h
+-- Installing: /usr/local/include/folly/lang/Align.h
+-- Installing: /usr/local/include/folly/lang/Assume.h
+-- Installing: /usr/local/include/folly/lang/Bits.h
+-- Installing: /usr/local/include/folly/lang/CheckedMath.h
+-- Installing: /usr/local/include/folly/lang/ColdClass.h
+-- Installing: /usr/local/include/folly/lang/CustomizationPoint.h
+-- Installing: /usr/local/include/folly/lang/Exception.h
+-- Installing: /usr/local/include/folly/lang/Launder.h
+-- Installing: /usr/local/include/folly/lang/Ordering.h
+-- Installing: /usr/local/include/folly/lang/Pretty.h
+-- Installing: /usr/local/include/folly/lang/PropagateConst.h
+-- Installing: /usr/local/include/folly/lang/RValueReferenceWrapper.h
+-- Installing: /usr/local/include/folly/lang/SafeAssert.h
+-- Installing: /usr/local/include/folly/lang/StaticConst.h
+-- Installing: /usr/local/include/folly/lang/TypeInfo.h
+-- Installing: /usr/local/include/folly/lang/UncaughtExceptions.h
+-- Installing: /usr/local/include/folly/logging/AsyncFileWriter.h
+-- Installing: /usr/local/include/folly/logging/AsyncLogWriter.h
+-- Installing: /usr/local/include/folly/logging/CustomLogFormatter.h
+-- Installing: /usr/local/include/folly/logging/FileHandlerFactory.h
+-- Installing: /usr/local/include/folly/logging/FileWriterFactory.h
+-- Installing: /usr/local/include/folly/logging/GlogStyleFormatter.h
+-- Installing: /usr/local/include/folly/logging/ImmediateFileWriter.h
+-- Installing: /usr/local/include/folly/logging/Init.h
+-- Installing: /usr/local/include/folly/logging/LogCategory.h
+-- Installing: /usr/local/include/folly/logging/LogCategoryConfig.h
+-- Installing: /usr/local/include/folly/logging/LogConfig.h
+-- Installing: /usr/local/include/folly/logging/LogConfigParser.h
+-- Installing: /usr/local/include/folly/logging/LogFormatter.h
+-- Installing: /usr/local/include/folly/logging/LogHandler.h
+-- Installing: /usr/local/include/folly/logging/LogHandlerConfig.h
+-- Installing: /usr/local/include/folly/logging/LogHandlerFactory.h
+-- Installing: /usr/local/include/folly/logging/LogLevel.h
+-- Installing: /usr/local/include/folly/logging/LogMessage.h
+-- Installing: /usr/local/include/folly/logging/LogName.h
+-- Installing: /usr/local/include/folly/logging/LogStream.h
+-- Installing: /usr/local/include/folly/logging/LogStreamProcessor.h
+-- Installing: /usr/local/include/folly/logging/LogWriter.h
+-- Installing: /usr/local/include/folly/logging/Logger.h
+-- Installing: /usr/local/include/folly/logging/LoggerDB.h
+-- Installing: /usr/local/include/folly/logging/ObjectToString.h
+-- Installing: /usr/local/include/folly/logging/RateLimiter.h
+-- Installing: /usr/local/include/folly/logging/StandardLogHandler.h
+-- Installing: /usr/local/include/folly/logging/StandardLogHandlerFactory.h
+-- Installing: /usr/local/include/folly/logging/StreamHandlerFactory.h
+-- Installing: /usr/local/include/folly/logging/xlog.h
+-- Installing: /usr/local/include/folly/memory/Arena-inl.h
+-- Installing: /usr/local/include/folly/memory/Arena.h
+-- Installing: /usr/local/include/folly/memory/EnableSharedFromThis.h
+-- Installing: /usr/local/include/folly/memory/MallctlHelper.h
+-- Installing: /usr/local/include/folly/memory/Malloc.h
+-- Installing: /usr/local/include/folly/memory/MemoryResource.h
+-- Installing: /usr/local/include/folly/memory/SanitizeLeak.h
+-- Installing: /usr/local/include/folly/memory/ThreadCachedArena.h
+-- Installing: /usr/local/include/folly/memory/UninitializedMemoryHacks.h
+-- Installing: /usr/local/include/folly/memory/detail/MallocImpl.h
+-- Installing: /usr/local/include/folly/net/NetOps.h
+-- Installing: /usr/local/include/folly/net/NetworkSocket.h
+-- Installing: /usr/local/include/folly/net/detail/SocketFileDescriptorMap.h
+-- Installing: /usr/local/include/folly/poly/Nullable.h
+-- Installing: /usr/local/include/folly/poly/Regular.h
+-- Installing: /usr/local/include/folly/portability/Asm.h
+-- Installing: /usr/local/include/folly/portability/Atomic.h
+-- Installing: /usr/local/include/folly/portability/Builtins.h
+-- Installing: /usr/local/include/folly/portability/Config.h
+-- Installing: /usr/local/include/folly/portability/Constexpr.h
+-- Installing: /usr/local/include/folly/portability/Dirent.h
+-- Installing: /usr/local/include/folly/portability/Event.h
+-- Installing: /usr/local/include/folly/portability/Fcntl.h
+-- Installing: /usr/local/include/folly/portability/GFlags.h
+-- Installing: /usr/local/include/folly/portability/GMock.h
+-- Installing: /usr/local/include/folly/portability/GTest.h
+-- Installing: /usr/local/include/folly/portability/IOVec.h
+-- Installing: /usr/local/include/folly/portability/Libgen.h
+-- Installing: /usr/local/include/folly/portability/Malloc.h
+-- Installing: /usr/local/include/folly/portability/Math.h
+-- Installing: /usr/local/include/folly/portability/Memory.h
+-- Installing: /usr/local/include/folly/portability/OpenSSL.h
+-- Installing: /usr/local/include/folly/portability/PThread.h
+-- Installing: /usr/local/include/folly/portability/Sched.h
+-- Installing: /usr/local/include/folly/portability/Semaphore.h
+-- Installing: /usr/local/include/folly/portability/Sockets.h
+-- Installing: /usr/local/include/folly/portability/Stdio.h
+-- Installing: /usr/local/include/folly/portability/Stdlib.h
+-- Installing: /usr/local/include/folly/portability/String.h
+-- Installing: /usr/local/include/folly/portability/SysFile.h
+-- Installing: /usr/local/include/folly/portability/SysMembarrier.h
+-- Installing: /usr/local/include/folly/portability/SysMman.h
+-- Installing: /usr/local/include/folly/portability/SysResource.h
+-- Installing: /usr/local/include/folly/portability/SysStat.h
+-- Installing: /usr/local/include/folly/portability/SysSyscall.h
+-- Installing: /usr/local/include/folly/portability/SysTime.h
+-- Installing: /usr/local/include/folly/portability/SysTypes.h
+-- Installing: /usr/local/include/folly/portability/SysUio.h
+-- Installing: /usr/local/include/folly/portability/Syslog.h
+-- Installing: /usr/local/include/folly/portability/Time.h
+-- Installing: /usr/local/include/folly/portability/Unistd.h
+-- Installing: /usr/local/include/folly/portability/Windows.h
+-- Installing: /usr/local/include/folly/python/AsyncioExecutor.h
+-- Installing: /usr/local/include/folly/python/async_generator.h
+-- Installing: /usr/local/include/folly/python/coro.h
+-- Installing: /usr/local/include/folly/python/executor.h
+-- Installing: /usr/local/include/folly/python/futures.h
+-- Installing: /usr/local/include/folly/python/iobuf.h
+-- Installing: /usr/local/include/folly/ssl/Init.h
+-- Installing: /usr/local/include/folly/ssl/OpenSSLCertUtils.h
+-- Installing: /usr/local/include/folly/ssl/OpenSSLHash.h
+-- Installing: /usr/local/include/folly/ssl/OpenSSLLockTypes.h
+-- Installing: /usr/local/include/folly/ssl/OpenSSLPtrTypes.h
+-- Installing: /usr/local/include/folly/ssl/OpenSSLVersionFinder.h
+-- Installing: /usr/local/include/folly/ssl/SSLSession.h
+-- Installing: /usr/local/include/folly/ssl/detail/OpenSSLThreading.h
+-- Installing: /usr/local/include/folly/ssl/detail/SSLSessionImpl.h
+-- Installing: /usr/local/include/folly/stats/BucketedTimeSeries-inl.h
+-- Installing: /usr/local/include/folly/stats/BucketedTimeSeries.h
+-- Installing: /usr/local/include/folly/stats/Histogram-inl.h
+-- Installing: /usr/local/include/folly/stats/Histogram.h
+-- Installing: /usr/local/include/folly/stats/MultiLevelTimeSeries-inl.h
+-- Installing: /usr/local/include/folly/stats/MultiLevelTimeSeries.h
+-- Installing: /usr/local/include/folly/stats/QuantileEstimator-inl.h
+-- Installing: /usr/local/include/folly/stats/QuantileEstimator.h
+-- Installing: /usr/local/include/folly/stats/TDigest.h
+-- Installing: /usr/local/include/folly/stats/TimeseriesHistogram-inl.h
+-- Installing: /usr/local/include/folly/stats/TimeseriesHistogram.h
+-- Installing: /usr/local/include/folly/stats/detail/Bucket.h
+-- Installing: /usr/local/include/folly/stats/detail/BufferedStat-inl.h
+-- Installing: /usr/local/include/folly/stats/detail/BufferedStat.h
+-- Installing: /usr/local/include/folly/stats/detail/DigestBuilder-inl.h
+-- Installing: /usr/local/include/folly/stats/detail/DigestBuilder.h
+-- Installing: /usr/local/include/folly/stats/detail/DoubleRadixSort.h
+-- Installing: /usr/local/include/folly/stats/detail/SlidingWindow-inl.h
+-- Installing: /usr/local/include/folly/stats/detail/SlidingWindow.h
+-- Installing: /usr/local/include/folly/synchronization/AsymmetricMemoryBarrier.h
+-- Installing: /usr/local/include/folly/synchronization/AtomicNotification-inl.h
+-- Installing: /usr/local/include/folly/synchronization/AtomicNotification.h
+-- Installing: /usr/local/include/folly/synchronization/AtomicStruct.h
+-- Installing: /usr/local/include/folly/synchronization/AtomicUtil-inl.h
+-- Installing: /usr/local/include/folly/synchronization/AtomicUtil.h
+-- Installing: /usr/local/include/folly/synchronization/Baton.h
+-- Installing: /usr/local/include/folly/synchronization/CallOnce.h
+-- Installing: /usr/local/include/folly/synchronization/DistributedMutex-inl.h
+-- Installing: /usr/local/include/folly/synchronization/DistributedMutex.h
+-- Installing: /usr/local/include/folly/synchronization/DistributedMutexSpecializations.h
+-- Installing: /usr/local/include/folly/synchronization/Hazptr-fwd.h
+-- Installing: /usr/local/include/folly/synchronization/Hazptr.h
+-- Installing: /usr/local/include/folly/synchronization/HazptrDomain.h
+-- Installing: /usr/local/include/folly/synchronization/HazptrHolder.h
+-- Installing: /usr/local/include/folly/synchronization/HazptrObj.h
+-- Installing: /usr/local/include/folly/synchronization/HazptrObjLinked.h
+-- Installing: /usr/local/include/folly/synchronization/HazptrRec.h
+-- Installing: /usr/local/include/folly/synchronization/HazptrThrLocal.h
+-- Installing: /usr/local/include/folly/synchronization/LifoSem.h
+-- Installing: /usr/local/include/folly/synchronization/MicroSpinLock.h
+-- Installing: /usr/local/include/folly/synchronization/ParkingLot.h
+-- Installing: /usr/local/include/folly/synchronization/PicoSpinLock.h
+-- Installing: /usr/local/include/folly/synchronization/RWSpinLock.h
+-- Installing: /usr/local/include/folly/synchronization/Rcu-inl.h
+-- Installing: /usr/local/include/folly/synchronization/Rcu.h
+-- Installing: /usr/local/include/folly/synchronization/SanitizeThread.h
+-- Installing: /usr/local/include/folly/synchronization/SaturatingSemaphore.h
+-- Installing: /usr/local/include/folly/synchronization/SmallLocks.h
+-- Installing: /usr/local/include/folly/synchronization/Tearable.h
+-- Installing: /usr/local/include/folly/synchronization/Utility.h
+-- Installing: /usr/local/include/folly/synchronization/WaitOptions.h
+-- Installing: /usr/local/include/folly/synchronization/detail/AtomicUtils.h
+-- Installing: /usr/local/include/folly/synchronization/detail/Hardware.h
+-- Installing: /usr/local/include/folly/synchronization/detail/HazptrUtils.h
+-- Installing: /usr/local/include/folly/synchronization/detail/InlineFunctionRef.h
+-- Installing: /usr/local/include/folly/synchronization/detail/ProxyLockable-inl.h
+-- Installing: /usr/local/include/folly/synchronization/detail/ProxyLockable.h
+-- Installing: /usr/local/include/folly/synchronization/detail/Sleeper.h
+-- Installing: /usr/local/include/folly/synchronization/detail/Spin.h
+-- Installing: /usr/local/include/folly/synchronization/detail/ThreadCachedInts.h
+-- Installing: /usr/local/include/folly/synchronization/detail/ThreadCachedLists.h
+-- Installing: /usr/local/include/folly/synchronization/example/HazptrLockFreeLIFO.h
+-- Installing: /usr/local/include/folly/synchronization/example/HazptrSWMRSet.h
+-- Installing: /usr/local/include/folly/synchronization/example/HazptrWideCAS.h
+-- Installing: /usr/local/include/folly/system/MemoryMapping.h
+-- Installing: /usr/local/include/folly/system/Shell.h
+-- Installing: /usr/local/include/folly/system/ThreadId.h
+-- Installing: /usr/local/include/folly/system/ThreadName.h
+-- Installing: /usr/local/include/folly/tracing/ScopedTraceSection.h
+-- Installing: /usr/local/include/folly/tracing/StaticTracepoint-ELFx86.h
+-- Installing: /usr/local/include/folly/tracing/StaticTracepoint.h
+-- Installing: /usr/local/include/folly/container/test/F14TestUtil.h
+-- Installing: /usr/local/include/folly/container/test/TrackingTypes.h
+-- Installing: /usr/local/include/folly/io/async/test/AsyncSSLSocketTest.h
+-- Installing: /usr/local/include/folly/io/async/test/AsyncSocketTest.h
+-- Installing: /usr/local/include/folly/io/async/test/AsyncSocketTest2.h
+-- Installing: /usr/local/include/folly/io/async/test/BlockingSocket.h
+-- Installing: /usr/local/include/folly/io/async/test/MockAsyncSocket.h
+-- Installing: /usr/local/include/folly/io/async/test/MockAsyncServerSocket.h
+-- Installing: /usr/local/include/folly/io/async/test/MockAsyncSSLSocket.h
+-- Installing: /usr/local/include/folly/io/async/test/MockAsyncTransport.h
+-- Installing: /usr/local/include/folly/io/async/test/MockAsyncUDPSocket.h
+-- Installing: /usr/local/include/folly/io/async/test/MockTimeoutManager.h
+-- Installing: /usr/local/include/folly/io/async/test/ScopedBoundPort.h
+-- Installing: /usr/local/include/folly/io/async/test/SocketPair.h
+-- Installing: /usr/local/include/folly/io/async/test/TestSSLServer.h
+-- Installing: /usr/local/include/folly/io/async/test/TimeUtil.h
+-- Installing: /usr/local/include/folly/io/async/test/UndelayedDestruction.h
+-- Installing: /usr/local/include/folly/io/async/test/Util.h
+-- Installing: /usr/local/include/folly/synchronization/test/Semaphore.h
+-- Installing: /usr/local/include/folly/test/DeterministicSchedule.h
+-- Installing: /usr/local/include/folly/test/JsonTestUtil.h
+-- Installing: /usr/local/include/folly/test/TestUtils.h
+-- Installing: /usr/local/include/folly/folly-config.h
+-- Installing: /usr/local/lib/cmake/folly/folly-config.cmake
+-- Installing: /usr/local/lib/cmake/folly/folly-targets.cmake
+-- Installing: /usr/local/lib/cmake/folly/folly-targets-noconfig.cmake
+-- Installing: /usr/local/lib/pkgconfig/libfolly.pc
+-- Installing: /usr/local/lib/libfollybenchmark.a
+jachinlin@jachinlin-G3-3579:~/folly/_build$ 
+
