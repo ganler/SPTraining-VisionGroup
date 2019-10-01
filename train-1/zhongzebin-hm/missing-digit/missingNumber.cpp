@@ -1,7 +1,8 @@
 class Solution {
 public:
     int missingNumber(vector<int>& nums) {
-        bool a[nums.size()+1]={false};
+        array<bool,nums.size()+1> a;
+        a.fill(false);
         for(int i=0;i<nums.size();i++)
         {
             a[nums[i]]=true;
