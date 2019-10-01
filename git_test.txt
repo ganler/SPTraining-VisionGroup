@@ -1,2 +1,0 @@
-This is a test file which is used to have a first try on git.
-
