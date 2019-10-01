@@ -1,4 +1,4 @@
-﻿#include "opencv2/opencv.hpp"
+﻿#include <opencv2/opencv.hpp>
 #include <iostream>
 using namespace std;
 using namespace cv;
@@ -10,7 +10,6 @@ int main()
     cap>>frame;
     while(!frame.empty())
     {
-cout<<"2"<<endl;
         Mat gray;
         Mat binary;
         cvtColor(frame,gray,COLOR_BGR2GRAY);
@@ -19,6 +18,5 @@ cout<<"2"<<endl;
         waitKey(10);
         cap>>frame;
     }
-    cout<<"1"<<endl;
     return 0;
 }

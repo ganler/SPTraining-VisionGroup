@@ -1,0 +1,7 @@
+git clone https://github.com/facebook/folly
+unzip folly.zip
+cd folly
+mkdir _build
+cd _build
+cmake ..
+make install

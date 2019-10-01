@@ -1,3 +1,0 @@
-/home/zhongzebin/文档/SPTraining-VisionGroup/train-1/zhongzebin-hm/binary/build/CMakeFiles/edit_cache.dir
-/home/zhongzebin/文档/SPTraining-VisionGroup/train-1/zhongzebin-hm/binary/build/CMakeFiles/rebuild_cache.dir
-/home/zhongzebin/文档/SPTraining-VisionGroup/train-1/zhongzebin-hm/binary/build/CMakeFiles/binary.dir
