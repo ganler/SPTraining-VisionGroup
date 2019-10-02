@@ -5,13 +5,13 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "/home/hanxuyuan/Opencv/opencv-3.4.7/include"
-                
             ],
             "defines": [],
             "compilerPath": "/usr/bin/g++-5",
             "cStandard": "c11",
             "cppStandard": "c++17",
-            "intelliSenseMode": "gcc-x64"
+            "intelliSenseMode": "gcc-x64",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json"
         }
     ],
     "version": 4
