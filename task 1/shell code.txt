@@ -1,0 +1,6 @@
+chengyi@chengyi-G3-3579:~$ git clone https://github.com/facebook/folly.git
+chengyi@chengyi-G3-3579:~$ cd folly
+chengyi@chengyi-G3-3579:~/folly$ mkdir _build
+chengyi@chengyi-G3-3579:~/folly$ cd build
+chengyi@chengyi-G3-3579:~/folly/build$ cmake ..
+chengyi@chengyi-G3-3579:~/libevent/build$ sudo make install
