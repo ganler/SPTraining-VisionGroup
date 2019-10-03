@@ -1,0 +1,9 @@
+##after installing googletest and other required packages
+  git clone https://github.com/facebook/folly.git
+  cd folly
+  mkdir _build
+  cd _build
+  cmake ..
+  make
+  sudo make install
+
