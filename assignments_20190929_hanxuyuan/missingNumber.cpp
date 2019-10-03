@@ -3,7 +3,8 @@
 using namespace std;
 int missingNumber(vector<int>& nums);
 int missingNumber(vector<int>& nums) {
-	int n = nums.size();
+	int n;
+	n = nums.size();
 	int sum_should_be = n*(n-1)/2;
 	int sum = 0;
 	int missingNumber = 0;
@@ -12,8 +13,9 @@ int missingNumber(vector<int>& nums) {
 	}
 	missingNumber = n-sum+sum_should_be;
 	return missingNumber;
-    }
-};
+    };
 int main(){
-	vector<int>
+	int array[] = {0, 2, 3};
+	vector<int> nums(array, array+3);
+	cout << missingNumber(nums);
 }
