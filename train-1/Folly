@@ -1,0 +1,38 @@
+#下载folly 
+git clone https://github.com/facebook/folly.git
+#下载并安装google test
+git clone https://github.com/google/googletest
+cd /home/ruolan/googletest
+cmake .
+make
+sudo make install 
+#安装所需要的包
+sudo apt-get install \
+    g++ \
+    cmake \
+    libboost-all-dev \
+    libevent-dev \
+    libdouble-conversion-dev \
+    libgoogle-glog-dev \
+    libgflags-dev \
+    libiberty-dev \
+    liblz4-dev \
+    liblzma-dev \
+    libsnappy-dev \
+    make \
+    zlib1g-dev \
+    binutils-dev \
+    libjemalloc-dev \
+    libssl-dev \
+    pkg-config
+#补充debug包
+sudo apt-get install \
+    libunwind8-dev \
+    libelf-dev \
+    libdwarf-dev
+#编译
+  cd folly
+  mkdir _build && cd _build
+  cmake configure ..
+  make -j $(nproc)
+  sudo make install
