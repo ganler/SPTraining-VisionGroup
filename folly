@@ -1,0 +1,8 @@
+cd Downloads
+git clone https://github.com/facebook/folly.git
+cd folly
+mkdir build
+cd build
+cmake ..
+make
+
