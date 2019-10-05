@@ -1,9 +1,0 @@
-git clone https://github.com/facebook/folly.git
-cd /home/syc/folly
-ls//这里发现下下来的folly自带build,所以新建一个别的文件夹
-mkdir realse && cd realse
-cmake ..//当时报错显示cmakelists里缺少cmake版本至少3.5这句话 然后把这句话在cmakelists里面加上重新cmake ..
-sudo make install
-
-
-
