@@ -1,0 +1,28 @@
+﻿生成启动时间为 2019/10/5 17:37:01。
+     1>项目“E:\【learing】\C++learning\homework1\binary_search\binary_search\binary_search\binary_search.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\binary_search.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         e:\program files\VS2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\binary_search.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt binary_search.cpp
+         binary_search.cpp
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         e:\program files\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\【learing】\C++learning\homework1\binary_search\binary_search\Debug\binary_search.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\binary_search.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\【learing】\C++learning\homework1\binary_search\binary_search\Debug\binary_search.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\【learing】\C++learning\homework1\binary_search\binary_search\Debug\binary_search.lib" /MACHINE:X86 Debug\binary_search.exe.embed.manifest.res
+         Debug\binary_search.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\binary_search.exe.embed.manifest" /manifest Debug\binary_search.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         binary_search.vcxproj -> E:\【learing】\C++learning\homework1\binary_search\binary_search\Debug\binary_search.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\binary_search.unsuccessfulbuild”。
+         正在对“Debug\binary_search.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\【learing】\C++learning\homework1\binary_search\binary_search\binary_search\binary_search.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.19

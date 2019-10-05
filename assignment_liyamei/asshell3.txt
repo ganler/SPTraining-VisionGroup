@@ -1,0 +1,107 @@
+// 189.cpp : 定义控制台应用程序的入口点。
+//
+
+#include "stdafx.h"
+#include "Solution.h"
+#include <vector>
+#include <iostream>
+#include <algorithm>
+
+using namespace std;
+
+int _tmain(int argc, _TCHAR* argv[])
+{
+	int a[7]={1,2,3,4,5,6,7};
+	vector<int> nums(a,a+7);
+
+	CSolution aaa;
+	
+	aaa.rotate(nums,3);
+	for (int i=0;i<nums.size();i++)
+	{
+		cout<<nums[i]<<endl;
+	}
+	
+	return 0;
+}
+#pragma once
+#include <iostream>
+#include <vector>
+using namespace std;
+
+class CSolution
+{
+public:
+	//CSolution(void);
+	//~CSolution(void);
+void rotate(vector<int>& nums, int k) {
+        k =  k % nums.size();
+        
+        int t1 = 0, t2 = 0;
+        int tr;
+        for (t1 = 0, t2 = nums.size() - k - 1; t1 <= t2;++t1, --t2){
+            tr = nums[t1];
+            nums[t1] = nums[t2];
+            nums[t2] = tr;
+        }
+        
+        for (t1 = nums.size() - k, t2 = nums.size() - 1; t1 <= t2;++t1, --t2){
+            tr = nums[t1];
+            nums[t1] = nums[t2];
+            nums[t2] = tr;
+        }
+        
+        for (t1 = 0, t2 = nums.size() - 1; t1 <= t2;++t1, --t2){
+            tr = nums[t1];
+            nums[t1] = nums[t2];
+            nums[t2] = tr;
+        }
+    }
+
+};
+
+
+// 268.cpp : 定义控制台应用程序的入口点。
+//
+
+#include "stdafx.h"
+#include "Solution.h"
+#include <vector>
+#include <iostream>
+#include <algorithm>
+
+using namespace std;
+
+int _tmain(int argc, _TCHAR* argv[])
+{
+	
+	int a[7]={3,0,1,5,6,2,7};
+	std::vector<int>nums(a,a+7);
+
+	CSolution aaa;
+
+	cout<<aaa.missingNumber(nums)<<endl;
+	return 0;
+}
+
+
+#pragma once
+#include <iostream>
+#include <vector>
+#include <numeric>
+using namespace std;
+
+class CSolution
+{
+public:
+	//CSolution(void);
+	//~CSolution(void);
+int missingNumber(vector<int>& nums) 
+{
+	int n=nums.size();
+	int sum1=n*(n+1)/2;
+	int sum2=std::accumulate(nums.begin(),nums.end(),0);
+	return sum1-sum2;
+}
+};
+

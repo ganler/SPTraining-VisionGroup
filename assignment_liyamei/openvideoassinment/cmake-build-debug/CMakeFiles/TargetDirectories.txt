@@ -1,0 +1,3 @@
+/home/ming/git_yummy/homework1/openvideoassinment/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ming/git_yummy/homework1/openvideoassinment/cmake-build-debug/CMakeFiles/DisplayImage.dir
+/home/ming/git_yummy/homework1/openvideoassinment/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -1,0 +1,45 @@
+touch homework1
+git clone https://github.com/facebook/folly
+
+wget https://github.com/google/googletest/archive/release-1.8.0.tar.gz && \
+tar zxf release-1.8.0.tar.gz && \
+rm -f release-1.8.0.tar.gz && \
+cd googletest-release-1.8.0 && \
+cmake . && \
+make && \
+sudo make install
+
+sudo apt-get install \
+    g++ \
+    cmake \
+    libboost-all-dev \
+    libevent-dev \
+    libdouble-conversion-dev \
+    libgoogle-glog-dev \
+    libgflags-dev \
+    libiberty-dev \
+    liblz4-dev \
+    liblzma-dev \
+    libsnappy-dev \
+    make \
+    zlib1g-dev \
+    binutils-dev \
+    libjemalloc-dev \
+    libssl-dev \
+    pkg-config
+
+
+  git clone https://github.com/google/double-conversion.git
+  cd double-conversion
+  cmake -DBUILD_SHARED_LIBS=ON .
+  make
+  sudo make install
+
+
+  cd folly
+  mkdir _build
+  cd _build
+  cmake ..
+  make
+  sudo make install
+
