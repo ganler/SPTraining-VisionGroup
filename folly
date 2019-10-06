@@ -1,0 +1,27 @@
+git clone https://github.com/facebook/folly.git
+cd folly
+cd build
+cmake ..
+
+sudo apt-get install mpi-default-dev
+sudo apt-get install mpi-default-dev
+sudo apt-get install python-dev
+sudo apt-get install libbz2-dev
+
+tar -jxvf boost_1_66_0.t ./ar.bz2
+
+cd ~/桌面/boost_1_66_0
+./bootstrap.sh
+sudo ./b2
+sudo ./b2 installcd
+
+git clone https://github.com/libevent/libevent.git
+sudo apt-get install automake libtool
+cmake ..
+make
+
+cd folly
+cd build
+cmake ..
+make
+sudo make install
