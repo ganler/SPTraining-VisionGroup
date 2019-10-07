@@ -1,0 +1,34 @@
+git clone https://github.com/facebook/folly.git
+cd folly
+cd build
+cmake ..    //出来一堆错误
+make -j4   //提示没有makefile
+cd ~
+sudo apt-get install \
+    g++ \
+    cmake \
+    libboost-all-dev \
+    libevent-dev \
+    libdouble-conversion-dev \
+    libgoogle-glog-dev \
+    libgflags-dev \
+    libiberty-dev \
+    liblz4-dev \
+    liblzma-dev \
+    libsnappy-dev \
+    make \
+    zlib1g-dev \
+    binutils-dev \
+    libjemalloc-dev \
+    libssl-dev \
+    pkg-config
+cd folly/build
+cmake ..
+make -j4
+sudo make install
+
+
+
+
+
+
