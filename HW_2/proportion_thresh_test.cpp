@@ -34,7 +34,7 @@ void proportion_thresh(cv::Mat &in, cv::Mat &out, double max_Val, double proport
 int main()
 {
     auto mat=cv::imread("proportion.jpeg",cv::IMREAD_GRAYSCALE);
-    proportion_thresh(mat,mat,100,0.4);
+    proportion_thresh(mat,mat,255,0.4);
     imshow("t",mat);
     cv::waitKey(0);
 }
