@@ -1,9 +1,0 @@
-class Solution {
-public:
-    int missingNumber(vector<int>& nums) {
-        auto i=nums.size()*(nums.size()+1)/2;
-        i-=accumulate(nums.begin(),nums.end(),0);
-        return i;
-    }
-  
-};
