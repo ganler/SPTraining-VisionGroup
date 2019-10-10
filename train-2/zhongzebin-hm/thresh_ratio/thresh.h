@@ -3,8 +3,6 @@
 //
 #include <opencv2/opencv.hpp>
 #include <vector>
-using namespace std;
-using namespace cv;
 #ifndef HOMEWORK1_TIMER_H
 #define HOMEWORK1_TIMER_H
 class thresh
