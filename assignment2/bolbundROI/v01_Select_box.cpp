@@ -13,7 +13,7 @@ using namespace cv;
 int main (int argc, char **arv)
 {
     // Read image
-    Mat im = imread("/home/ming/Pictures/shape.png");
+    Mat im = imread("/home/ming/git_yummy/SPTraining-VisionGroup/assignment2/bolbundROI/shape.png");
 
     // Select ROI
     Rect2d r = selectROI(im);
