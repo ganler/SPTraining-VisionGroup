@@ -1,0 +1,5 @@
+cmake_minimum_required (VERSION 2.8)
+project (center_mul)
+find_package (OpenCV REQUIRED)
+add_executable (center_mul center_mul.cpp)
+target_link_libraries (center_mul ${OpenCV_LIBS}) 

@@ -1,0 +1,5 @@
+cmake_minimum_required (VERSION 2.8)
+project (center)
+find_package(OpenCV REQUIRED)
+add_executable(center center.cpp)
+target_link_libraries(center ${OpenCV_LIBS})

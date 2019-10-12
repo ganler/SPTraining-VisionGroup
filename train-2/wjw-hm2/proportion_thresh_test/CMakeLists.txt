@@ -1,0 +1,5 @@
+cmake_minimum_required (VERSION 2.8)
+project (proportion_thresh_test)
+find_package(OpenCV REQUIRED)
+add_executable(cvtest proportion_thresh_test.cpp)
+target_link_libraries(cvtest ${OpenCV_LIBS})
