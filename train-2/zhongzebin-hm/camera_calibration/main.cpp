@@ -2,9 +2,9 @@
 using namespace std;
 using namespace cv;
 int main()
-{
-    Mat cameraMatrix = Mat::eye(3, 3, CV_64F);
+{Mat cameraMatrix = Mat::eye(3, 3, CV_64F);
     Mat distCoeffs = Mat::zeros(8, 1, CV_64F);
+    std::cout<<cameraMatrix<<'\n';
     Mat cal[18];//黑白棋盘图像
     vector<Point2f> corners;//每幅图角点
     vector<vector<Point3f>> objectlist(1);//世界坐标系下的棋盘角点
@@ -61,6 +61,7 @@ int main()
     vector<Mat> rves, tvecs;
     //进行相机标定
     calibrateCamera(objectlist, cornerslist, cal[0].size(), cameraMatrix, distCoeffs, rves, tvecs);//世界坐标系中的点，像素坐标系中的点，格子大小，相机内参，矫正参数，旋转向量，位移向量
+    std::cout<<cameraMatrix<<'\n';
     //图像矫正
     Mat dist;
     undistort(cal[0],dist,cameraMatrix,distCoeffs);
