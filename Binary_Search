@@ -1,0 +1,17 @@
+template<typename Iter,typename T>
+bool _binary_search(Iter beg,Iter end,const T& val)
+{
+    Iter  m,_beg;
+    std::sort(beg ,end);     //先从小到大排序
+    end=end-1;
+    _beg=beg;                      //指针无法参与算术运算，保存首地址
+    while(beg<=end)
+{
+    m=_beg+(beg-_beg)/2+(end-_beg)/2+((beg-_beg)%2&(end-_beg)%2);
+    if((*m)==val)
+            return true;
+    else if(*m>val)
+            end=m-1;
+    else  if(*m<val)
+             beg=m+1;
+}

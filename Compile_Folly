@@ -1,0 +1,25 @@
+git clone https://github.com/facebook/folly
+git clone https://github.com/google/googletest/archive/release-1.8.0.tar.gz 
+tar zxf release-1.8.0.tar.gz 
+rm -f release-1.8.0.tar.gz 
+cd googletest-release-1.8.0 
+cmake . 
+make 
+sudo make install
+sudo apt-get install    libboost-all-dev 
+sudo apt-get install    libevent-dev 
+sudo apt-get install    libdouble-conversion-dev 
+sudo apt-get install    libgoogle-glog-dev 
+sudo apt-get install    libgflags-dev 
+sudo apt-get install    libiberty-dev 
+sudo apt-get install    liblzma-dev 
+sudo apt-get install    libsnappy-dev 
+sudo apt-get install    libssl-dev 
+sudo apt-get install    libunwind8-dev 
+sudo apt-get install    libelf-dev 
+sudo apt-get install    libdwarf-dev
+mkdir _build && cd _build
+cmake ..
+make -j4
+sudo make install 
+
